@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "title": "Botella multifuncion 8 en 1 ",
+        "price": 25,
+        "description": " ",
+        "details":" ",
+        "stock": 4,
+        "category": 1,
+        "images": [
+            "Botella_multi_1.jpeg",
+            "Botella_multi_2.jpeg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Mini batidora manual a pilas",
+        "price": 12.50,
+        "description": " ",
+        "details":" ",
+        "stock": 4,
+        "category": 1,
+        "images": [
+            "Batidora_mini_1.jpeg",
+            "Batidora_mini_2.jpeg"
+        ]
+    },
+    {
+        "title": "Escobilla para vasos/botellas 🥃",
+        "price": 10,
+        "description": " ",
+        "details":" ",
+        "stock": 4,
+        "category": 1,
+        "images": [
+            "Escobilla_1.jpeg",
+            "Escobilla_2.jpeg"
+        ]
+    },
+    {
+        "title": "Cepillo de limpieza c/ mango retractil",
+        "price": 13,
+        "description": " ",
+        "details":" ",
+        "stock": 4,
+        "category":1,
+        "images": [
+            "Cepillo_limp_1.jpeg",
+            "Cepillo_limp_2.jpeg"
+        ]
+    },
+    {
+        "title": "Cepillos de limpieza especial",
+        "price": 25,
+        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "details":"Color Disponible: Blanco",
+        "stock": 4,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    }
+]
