@@ -5,6 +5,11 @@ $estilos: (
   1rem : 1rem
 );
 
+@font-face {
+    font-family: "Fredella";
+    src: url("../../../fonts/CreamCake.otf");
+}
+
 
 .background{
     position: relative;
@@ -59,6 +64,7 @@ $estilos: (
 
     &-title{
         display: inline-flex;
+        font-family: "Fredella", sans-serif;
         margin: auto 0;
         text-transform: uppercase;
         font-weight: 500;

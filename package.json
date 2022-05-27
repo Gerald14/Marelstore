@@ -1,0 +1,25 @@
+{
+  "name": "marelstore",
+  "version": "1.0.0",
+  "description": "Se crea pagina web para el emprendimiento Marelstore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/styles/sass/index.scss ./assets/styles/css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerald14/Marelstore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerald14/Marelstore/issues"
+  },
+  "homepage": "https://github.com/Gerald14/Marelstore#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

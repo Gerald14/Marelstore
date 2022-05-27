@@ -9,6 +9,10 @@ html, body {
   margin: 0;
   height: 100%; }
 
+@font-face {
+  font-family: "Fredella";
+  src: url("../../../fonts/CreamCake.otf"); }
+
 .background {
   position: relative; }
   .background img {
@@ -45,6 +49,7 @@ html, body {
 
 .contact-title {
   display: inline-flex;
+  font-family: "Fredella", sans-serif;
   margin: auto 0;
   text-transform: uppercase;
   font-weight: 500;
