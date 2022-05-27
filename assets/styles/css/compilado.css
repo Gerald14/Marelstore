@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+html, body {
+  margin: 0;
+  height: 100%; }
+
+.background {
+  position: relative; }
+  .background img {
+    width: 6rem;
+    height: 6rem; }
+  .background .bg-1 {
+    position: absolute;
+    left: -10px;
+    top: -5px; }
+  .background .bg-2 {
+    position: absolute;
+    right: -15px;
+    top: -20px; }
+  .background .bg-3 {
+    position: absolute;
+    right: -15px;
+    bottom: -40px; }
+  .background .bg-4 {
+    position: absolute;
+    left: -15px;
+    bottom: -40px; }
+
+.contact-card {
+  background-color: #FBDBC3; }
+
+.contact-header {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  position: relative; }
+  .contact-header img {
+    width: 4rem;
+    height: 3.5rem; }
+
+.contact-title {
+  display: inline-flex;
+  margin: auto 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  justify-content: center;
+  align-items: center; }
+
+.contact-title::before {
+  content: '';
+  position: absolute;
+  content: '';
+  background-color: #FBDBC3;
+  width: 150px;
+  height: 3px;
+  bottom: -10px; }
+
+.contact .icon-circle {
+  width: fit-content;
+  border-radius: 50%;
+  overflow: hidden; }
+  .contact .icon-circle img {
+    width: 4rem;
+    height: auto; }
