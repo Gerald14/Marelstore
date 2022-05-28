@@ -197,7 +197,8 @@ main {
     height: 20%;
     flex-direction: row;
     align-items: center;
-    width: 100%; }
+    width: 100%;
+    gap: 10px; }
     #carrusel-productos .contenedor-encabezado-destacados .linea-encabezado {
       align-self: flex-start;
       height: 50%;
@@ -245,7 +246,7 @@ main {
 #caja-suscripcion-desktop {
   display: none; }
 
-#caja-suscripcion {
+#caja-suscripcion-mobile {
   height: 28vh;
   width: 100%;
   background-color: #B1C5C5;
@@ -253,35 +254,40 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center; }
-  #caja-suscripcion .ilustracion-calendario {
+  #caja-suscripcion-mobile .ilustracion-calendario {
     width: 34%;
-    height: 100%; }
-    #caja-suscripcion .ilustracion-calendario img {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fedec6; }
+    #caja-suscripcion-mobile .ilustracion-calendario img {
       width: 100%;
-      height: 100%; }
-  #caja-suscripcion .formulario-suscripcion {
+      height: auto; }
+  #caja-suscripcion-mobile .formulario-suscripcion {
     height: 100%;
     width: 66%;
     display: flex;
     flex-direction: column;
     align-items: center; }
-    #caja-suscripcion .formulario-suscripcion form {
+    #caja-suscripcion-mobile .formulario-suscripcion form {
       width: 100%;
       height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around; }
-      #caja-suscripcion .formulario-suscripcion form .encabezado-suscripcion {
+      #caja-suscripcion-mobile .formulario-suscripcion form .encabezado-suscripcion {
         font-weight: 600; }
-      #caja-suscripcion .formulario-suscripcion form label {
+      #caja-suscripcion-mobile .formulario-suscripcion form label {
         text-align: center;
         width: 70%;
         font-weight: 600; }
-      #caja-suscripcion .formulario-suscripcion form input {
+      #caja-suscripcion-mobile .formulario-suscripcion form input {
         border: transparent;
         border-radius: 4px; }
-      #caja-suscripcion .formulario-suscripcion form #boton-formulario-suscripcion {
+      #caja-suscripcion-mobile .formulario-suscripcion form #boton-formulario-suscripcion {
         width: 30%;
         color: white;
         background-color: #6D9E95;
@@ -297,9 +303,6 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column; }
-
-.footer-redes-informacion-desktop {
-  display: none; }
 
 .footer-redes-informacion-mobile {
   display: flex;
@@ -348,6 +351,9 @@ footer {
   text-align: center;
   color: white;
   font-size: 0.8rem; }
+
+.footer-redes-informacion-desktop {
+  display: none; }
 
 /****************************************** TABLET AND DESKTOP **********************************************/
 @media (min-width: 600px) {
