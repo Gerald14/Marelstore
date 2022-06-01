@@ -691,3 +691,266 @@ footer {
     .caja-informacion-horario-footer li {
       list-style: none;
       color: white; } }
+
+#contenedor-nosotros-desktop {
+  display: none; }
+
+#nosotros-equipo {
+  display: none; }
+
+.background-figuras-nosotros {
+  display: none; }
+
+.background-equipo {
+  display: none; }
+
+#contenedor-nosotros-mobile {
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: transparent; }
+
+.nosotros-primera-burbuja {
+  align-self: flex-start;
+  width: 100%;
+  height: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #FBDBC3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem; }
+  .nosotros-primera-burbuja p {
+    width: 80%;
+    font-weight: 300;
+    font-style: italic;
+    z-index: 2; }
+  .nosotros-primera-burbuja h1 {
+    z-index: 2; }
+
+.nosotros-segunda-burbuja {
+  width: 100%;
+  height: 40%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 10%;
+  background-color: #B1C5C5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .nosotros-segunda-burbuja p {
+    margin: 0;
+    width: 50%;
+    font-weight: 300;
+    font-style: italic;
+    z-index: 2; }
+
+.background-n-1 {
+  width: 100%;
+  position: absolute;
+  left: 180px;
+  top: 180px;
+  z-index: 1; }
+  .background-n-1 img {
+    width: 50%;
+    height: auto; }
+
+.background-n-2 {
+  width: 100%;
+  position: absolute;
+  right: 1px;
+  top: 120px;
+  z-index: 1; }
+  .background-n-2 img {
+    width: 28%;
+    height: auto; }
+
+.background-n-3 {
+  width: 100%;
+  position: absolute;
+  left: 240px;
+  bottom: 190px;
+  z-index: 1; }
+  .background-n-3 img {
+    width: 40%;
+    height: auto; }
+
+.background-n-4 {
+  width: 100%;
+  position: absolute;
+  left: 50px;
+  bottom: 335px;
+  z-index: 1; }
+  .background-n-4 img {
+    width: 30%;
+    height: auto; }
+
+@media (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  body {
+    font-family: "Fredella", sans-serif;
+    display: flex;
+    flex-direction: column; }
+  #contenedor-nosotros-mobile {
+    display: none; }
+  .background-figuras-nosotros {
+    display: block;
+    position: absolute;
+    height: 100vh;
+    width: 100vw; }
+    .background-figuras-nosotros .background-n-1 {
+      position: absolute;
+      width: 8rem;
+      height: 8rem;
+      left: 0px;
+      top: 0px; }
+      .background-figuras-nosotros .background-n-1 img {
+        width: 100%;
+        height: 100%; }
+    .background-figuras-nosotros .background-n-2 {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 8rem;
+      height: 8rem; }
+      .background-figuras-nosotros .background-n-2 img {
+        width: 100%;
+        height: 100%; }
+    .background-figuras-nosotros .background-n-3 {
+      position: absolute;
+      left: 90vw;
+      bottom: -10px;
+      width: 8rem;
+      height: 8rem; }
+      .background-figuras-nosotros .background-n-3 img {
+        width: 100%;
+        height: 100%; }
+    .background-figuras-nosotros .background-n-4 {
+      position: absolute;
+      left: 0px;
+      bottom: -10px;
+      width: 8rem;
+      height: 8rem; }
+      .background-figuras-nosotros .background-n-4 img {
+        width: 100%;
+        height: 100%; }
+  #contenedor-nosotros-desktop {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .nosotros-encabezado {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .nosotros-encabezado h1 {
+      height: fit-content;
+      text-align: center;
+      width: max-content;
+      border-bottom: 2px solid #F4B56E; }
+  .nosotros-primer-parrafo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    width: 100%; }
+  .contenedor-parrafo-1 {
+    width: 45%;
+    height: 85%;
+    background-color: #FBDBC3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 55%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 55%; }
+    .contenedor-parrafo-1 p {
+      font-size: 0.9rem;
+      font-style: italic;
+      width: 60%; }
+  .nosotros-segundo-parrafo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    width: 100%; }
+  .contenedor-parrafo-2 {
+    width: 45%;
+    height: 85%;
+    background-color: #B1C5C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 55%;
+    border-bottom-left-radius: 40%; }
+    .contenedor-parrafo-2 p {
+      font-size: 0.9rem;
+      font-style: italic;
+      width: 60%; }
+  .nosotros-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .nosotros-img img {
+      width: 60%;
+      height: 80%;
+      border-radius: 5px; }
+  #nosotros-equipo {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+  .background-equipo {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+  .background-equipo-1 {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    bottom: 200px;
+    right: 0px; }
+  .background-equipo-2 {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    bottom: 240px;
+    left: 100px; }
+  .encabezado-equipo {
+    width: max-content;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #F4B56E; }
+  .foto-equipo {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem; } }
