@@ -10,7 +10,8 @@ html, body {
   height: 100%; }
 
 .background {
-  position: relative; }
+  position: relative;
+  width: inherit; }
   .background img {
     width: 6rem;
     height: 6rem; }
@@ -82,7 +83,10 @@ body {
   flex-direction: column; }
 
 header {
-  height: 70px; }
+  height: 70px;
+  background: white;
+  z-index: 50;
+  position: fixed; }
 
 nav {
   display: flex;
@@ -183,7 +187,8 @@ main {
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 4.5rem; }
 
 #carrusel-productos {
   display: flex;

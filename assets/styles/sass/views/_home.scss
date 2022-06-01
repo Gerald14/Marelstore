@@ -5,6 +5,9 @@ body {
 
 header {
     height: 70px;
+    background: white;
+    z-index: 50;
+    position: fixed;
 }
 
 nav {
@@ -137,6 +140,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 4.5rem;
 }
 
 #carrusel-productos {
