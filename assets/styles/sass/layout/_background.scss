@@ -1,0 +1,32 @@
+.background{
+    position: relative;
+
+    img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .bg-1{
+        position: absolute;
+        left: -10px;
+        top: -5px;
+    }
+
+    .bg-2{
+        position: absolute;
+        right: -15px;
+        top: -20px;
+    }
+
+    .bg-3{
+        position: absolute;
+        right: -15px;
+        bottom: -40px;
+    }
+
+    .bg-4{
+        position: absolute;
+        left: -15px;
+        bottom: -40px;
+    }
+}

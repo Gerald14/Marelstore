@@ -9,10 +9,6 @@ html, body {
   margin: 0;
   height: 100%; }
 
-@font-face {
-  font-family: "Fredella";
-  src: url("../../../fonts/CreamCake.otf"); }
-
 .background {
   position: relative; }
   .background img {
@@ -34,6 +30,10 @@ html, body {
     position: absolute;
     left: -15px;
     bottom: -40px; }
+
+@font-face {
+  font-family: "Fredella";
+  src: url("../../../fonts/CreamCake.otf"); }
 
 .contact-card {
   background-color: #FBDBC3; }
@@ -73,6 +73,9 @@ html, body {
   .contact .icon-circle img {
     width: 4rem;
     height: auto; }
+
+.catalog-route li > a {
+  text-decoration: none; }
 
 body {
   display: flex;
