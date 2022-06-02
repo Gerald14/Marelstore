@@ -18,7 +18,7 @@ html, body {
   position: relative;
   width: inherit;
   overflow: hidden; }
-  .background img {
+  .background .bg img {
     width: 6rem;
     height: 6rem; }
   .background .bg-1 {
@@ -81,8 +81,122 @@ html, body {
     width: 4rem;
     height: auto; }
 
-.catalog-route li > a {
-  text-decoration: none; }
+.catalog-route {
+  margin: 2rem .5rem; }
+  .catalog-route li > a {
+    text-decoration: none; }
+
+.catalog-title {
+  display: inline-flex;
+  font-family: "Fredella", sans-serif;
+  margin-left: 20.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative; }
+
+.catalog .filter {
+  margin-top: 4rem; }
+  .catalog .filter-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%; }
+  .catalog .filter-search {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem; }
+    .catalog .filter-search input {
+      border: none;
+      background-color: #f2f3f2;
+      padding: .6rem 1rem;
+      outline: none;
+      width: inherit; }
+    .catalog .filter-search button {
+      border: none;
+      background: #f2f3f2;
+      padding: 0 1rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .catalog .filter-prices, .catalog .filter-brand {
+    width: 100%; }
+  .catalog .filter-title {
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0.7rem;
+    font-weight: 500;
+    color: #151515;
+    border-bottom: 1px solid #e1e1e1; }
+  .catalog .filter-list {
+    list-style: none;
+    padding-left: 0; }
+
+.catalog .products {
+  margin-top: 4rem; }
+  .catalog .products-content {
+    display: flex;
+    flex-direction: column; }
+  .catalog .products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    grid-gap: 3rem;
+    justify-content: space-evenly; }
+  .catalog .products-pagination {
+    padding: 3rem 0; }
+    .catalog .products-pagination .navigation {
+      display: flex; }
+    .catalog .products-pagination li {
+      border: none; }
+
+.catalog .product {
+  border: 1px solid #e1e1e1;
+  border-radius: 0.375rem;
+  transition: 450ms all;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+  .catalog .product-figure {
+    border-bottom: 1px solid #e1e1e1;
+    height: 16rem; }
+    .catalog .product-figure img {
+      width: 100%;
+      height: inherit;
+      object-fit: cover; }
+  .catalog .product-title {
+    padding-top: 1.5rem;
+    color: #151515;
+    font-size: .8rem;
+    font-weight: 600; }
+  .catalog .product-price {
+    padding: .7rem 1rem;
+    padding-bottom: 1.5rem;
+    font-size: .8rem;
+    color: #3E716A;
+    font-weight: 600; }
+  .catalog .product-details {
+    position: absolute;
+    border-radius: 0.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0;
+    background-color: rgba(166, 166, 166, 0.35);
+    width: 100%;
+    height: 100%; }
+  .catalog .product:hover {
+    transform: scale(1.08);
+    z-index: 2; }
+  .catalog .product:hover .product-details {
+    opacity: 1;
+    z-index: 5;
+    align-self: center; }
+  .catalog .product-title, .catalog .product-price {
+    text-align: center; }
 
 body {
   display: flex;
