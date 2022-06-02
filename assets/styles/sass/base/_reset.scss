@@ -9,3 +9,9 @@ html, body {
     margin: 0;
     height: 100%;
 }
+
+.form-control:focus {
+    border: 2px dotted #676666;
+    outline: none;
+    box-shadow: none;
+  }
