@@ -19,6 +19,17 @@ const fetchData = async() => {
         products = data;
         console.log(data)
         paintProducts(data);
+        let viewButtons = document.querySelectorAll(".btn-view")
+        viewButtons.forEach((el) => {
+            el.addEventListener("click", (o) => {
+                localStorage.clear();
+                let getProduct = (products.filter((elem) => elem.id == o.target.dataset.id));
+                let productID = getProduct[0].id;
+                localStorage.setItem("content", productID)
+                window.location.replace("../views/product.html");
+                
+            })
+        })
 
     } catch (error) {
         console.error(error);
