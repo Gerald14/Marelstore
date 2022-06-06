@@ -50,6 +50,25 @@ $estilos: (
         
     }
 
+    &-detail{
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+        margin-bottom: 1rem;
+       &-row{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin:1rem 5rem;
+       }
+    }
+
+    .avatar{
+        width: 8rem;
+        margin: auto;
+    }
+
     .icon-circle{
         width: fit-content;
         border-radius: 50%;

@@ -1,10 +1,11 @@
 @import './base/reset';
 
-@import './layout/background';
-
 @import './views/contact';
 @import './views/catalog.scss';
 
 @import './views/home';
 
 @import './views/about';
+
+@import './layout/background';
+@import './layout/responsive';

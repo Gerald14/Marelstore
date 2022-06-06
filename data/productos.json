@@ -50,6 +50,54 @@
         ]
     },
     {
+        "title": "Humidificador conejito 🐰",
+        "price": 36,
+        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "details":"Color Disponible: Blanco",
+        "stock": 4,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "title": "Cepillos de limpieza especial",
+        "price": 25,
+        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "details":"Color Disponible: Blanco",
+        "stock": 4,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "title": "Cepillos de limpieza especial",
+        "price": 25,
+        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "details":"Color Disponible: Blanco",
+        "stock": 4,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "title": "Cepillos de limpieza especial",
+        "price": 25,
+        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "details":"Color Disponible: Blanco",
+        "stock": 4,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
         "title": "Cepillos de limpieza especial",
         "price": 25,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",

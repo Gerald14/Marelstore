@@ -1,0 +1,14 @@
+@media screen and (max-width: 780px){
+    
+    .contact{
+        &-detail{
+            gap: 1rem;
+            margin-bottom: 1rem;
+           &-row{
+            gap: 1rem;
+            margin: .5rem 3rem;
+            
+           }
+        }
+    }
+}

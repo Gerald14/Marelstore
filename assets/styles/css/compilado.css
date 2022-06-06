@@ -14,30 +14,6 @@ html, body {
   outline: none;
   box-shadow: none; }
 
-.background {
-  position: relative;
-  width: inherit;
-  overflow: hidden; }
-  .background .bg img {
-    width: 6rem;
-    height: 6rem; }
-  .background .bg-1 {
-    position: absolute;
-    left: -10px;
-    top: -5px; }
-  .background .bg-2 {
-    position: absolute;
-    right: -15px;
-    top: -20px; }
-  .background .bg-3 {
-    position: absolute;
-    right: -15px;
-    bottom: -40px; }
-  .background .bg-4 {
-    position: absolute;
-    left: -15px;
-    bottom: -40px; }
-
 @font-face {
   font-family: "Fredella";
   src: url("../../../fonts/CreamCake.otf"); }
@@ -72,6 +48,21 @@ html, body {
   width: 150px;
   height: 3px;
   bottom: -10px; }
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  margin-bottom: 1rem; }
+  .contact-detail-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 5rem; }
+
+.contact .avatar {
+  width: 8rem;
+  margin: auto; }
 
 .contact .icon-circle {
   width: fit-content;
@@ -1082,3 +1073,35 @@ footer {
     border-radius: 50%;
     width: 5rem;
     height: 5rem; } }
+
+.background {
+  position: relative;
+  width: inherit;
+  overflow: hidden; }
+  .background .bg img {
+    width: 6rem;
+    height: 6rem; }
+  .background .bg-1 {
+    position: absolute;
+    left: -10px;
+    top: -5px; }
+  .background .bg-2 {
+    position: absolute;
+    right: -15px;
+    top: -20px; }
+  .background .bg-3 {
+    position: absolute;
+    right: -15px;
+    bottom: -40px; }
+  .background .bg-4 {
+    position: absolute;
+    left: -15px;
+    bottom: -40px; }
+
+@media screen and (max-width: 780px) {
+  .contact-detail {
+    gap: 1rem;
+    margin-bottom: 1rem; }
+    .contact-detail-row {
+      gap: 1rem;
+      margin: .5rem 3rem; } }
