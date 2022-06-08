@@ -15,6 +15,9 @@ window.addEventListener("click", (e) => {
 botonCart.addEventListener('click',()=> redeirectToCart())
 
 const redeirectToCart = () => {
-    const url =  window.location.href.split('/')[0];
-    window.location.href = url + '/views/shopingCart.html';
+    const url =  window.location.href.split('/');
+    console.log(url)
+    var bicho = url.pop();
+    console.log(bicho)
+    window.location.href = '/views/shopingCart.html';
 }

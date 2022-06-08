@@ -1,0 +1,25 @@
+.summary-cart{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4f0f0;
+    border-radius: 10px;
+    padding: 2rem;
+
+    .summary-title{
+        h5{
+            font-size: 1.5rem;
+        }
+    }
+
+    .summary-total,.summary-amount{
+        display: flex;
+        justify-content: space-between;
+        margin-top: .5rem;
+    }
+    
+    .btn-complete{
+        margin-top: 1rem;
+        background-color: #3E716A;
+    }
+
+}

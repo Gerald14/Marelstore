@@ -11,4 +11,20 @@
            }
         }
     }
+
+    .catalog{
+        .filter{
+            margin: 0 2rem;
+    
+            &-content{
+                width: 100%;
+            }
+        }
+    
+        .product{
+            margin: 0 2rem;
+        }
+
+    }
+    
 }

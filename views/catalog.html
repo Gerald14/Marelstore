@@ -21,7 +21,7 @@
                 <div class="contenedor-logo-menu"><img src="../assets/images/Logo_ms.png" alt="logo"></div>
                 <ul class="listado-items-menu">
                     <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="">NOSOTROS</a></li>
+                    <li><a href="./about.html">NOSOTROS</a></li>
                     <li><a href="#">CATALOGO</a></li>
                     <li><a href="./contact.html">CONTACTO</a></li>
                 </ul>
@@ -46,7 +46,7 @@
             <div id="contenedor-items-desktop" uk-navbar="boundary-align: true; align: center;">
                 <ul class="listado-items-menu-desktop">
                     <li class="li-catalogo"><a href="../index.html">Inicio</a></li>
-                    <li class="li-catalogo"><a href="">Nosotros</a></li>
+                    <li class="li-catalogo"><a href="./about.html">Nosotros</a></li>
                     <!-- Sub menu Catalogo-->
                     <li class="li-catalogo">
                         <a href="#">Catalogo</a>
@@ -143,7 +143,7 @@
                             <h4 class="catalog-title">Productos</h4>
                         </div>
                         <div class="row">
-                            <div class="col-3">
+                            <div class="col-lg-3 col-md-5 col-sm-12">
                                 <div class="filter">
                                     <div class="filter-content">
                                         <div class="filter-search">
@@ -194,7 +194,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-9">
+                            <div class="col-lg-9 col-md-7 col-sm-12 ">
                                 <div class="products">
                                     <div class="products-content">
                                         <div class="products-list">
@@ -235,8 +235,17 @@
             <div class="product-price">price</div>
             <div class="product-details">
                 <div class="product-details-btns">
-                    <button class="btn btn-dark btn-view">View</button>
-                    <button class="btn btn-dark btn-add">Add</button>
+                    <button class="btn btn-view">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-add">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
+                            <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
