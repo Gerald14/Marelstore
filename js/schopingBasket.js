@@ -75,6 +75,18 @@ const deleteProduct = (e) => {
     const newListCart = deleteProductById(idProduct,listCart);
     console.log(newListCart)
     localStorage.setItem('products-cart',JSON.stringify(newListCart));
+    const {total, amount} = getSummary(newListCart);
+    cleanDivByClass('.cart-summary')
+    paintSummary(total,amount);
 }
+
+function cleanDivByClass(classDiv){
+    const list = document.querySelector(classDiv)
+    while (list.firstChild) {
+        list.removeChild(list.firstChild);
+    }
+}
+
+
 
 const deleteProductById = (id,arr) => arr.filter(item => item.id!=id);
