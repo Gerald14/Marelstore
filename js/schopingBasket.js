@@ -12,6 +12,7 @@ const fragment = document.createDocumentFragment();
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInitCart());
+listProductsCart.addEventListener('click',e => deleteProduct(e))
 
 const paintInitCart = () => {
     const productsCart = JSON.parse(localStorage.getItem('products-cart'))||[];
@@ -30,9 +31,12 @@ const paintInitCart = () => {
 const paintCartProducts = (products) => {
     products.map((product)=>{
         const tmp = paintProduct(product);
+        const hr = document.createElement('hr');
         fragment.appendChild(tmp);
+        fragment.appendChild(hr);
     })
     listProductsCart.appendChild(fragment)
+    
 }
 
 const paintProduct = ({id,title,images,price,quantity}) => {
@@ -40,8 +44,7 @@ const paintProduct = ({id,title,images,price,quantity}) => {
     templateProductCart.querySelector('.product-cart-title').textContent = title;
     templateProductCart.querySelector('.product-cart-price').textContent = price;
     templateProductCart.querySelector('.product-cart-quantity').textContent = quantity;
-    templateProductCart.querySelector('.btn-view').dataset.id = id;
-    templateProductCart.querySelector('.btn-add').dataset.id = id;
+    templateProductCart.querySelector('.btn-close').dataset.id = id;
 
     const clone = templateProductCart.cloneNode(true);
     return clone;
@@ -64,3 +67,14 @@ const getSummary = (products) => {
 
     return {amount,total}
 }
+
+const deleteProduct = (e) => {
+    const listCart = JSON.parse(localStorage.getItem('products-cart'));
+    const btnDelete = e.target;
+    const idProduct = btnDelete.dataset.id;
+    const newListCart = deleteProductById(idProduct,listCart);
+    console.log(newListCart)
+    localStorage.setItem('products-cart',JSON.stringify(newListCart));
+}
+
+const deleteProductById = (id,arr) => arr.filter(item => item.id!=id);

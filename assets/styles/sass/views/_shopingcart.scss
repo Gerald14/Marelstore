@@ -1,5 +1,4 @@
 
-
 .shopcart{
     position: relative;
     z-index: 20;
@@ -32,12 +31,36 @@
 
 }
 
+.cart-products{
+    border-top: 1px solid #e6e5e5;
+    padding-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+
+    hr{
+        border-top: 1px solid #b1b1b1;
+        margin-top: 0;
+    }
+}
+
 .product-cart{
-    padding: 0rem 2rem 1rem 3rem;
+    padding: 2rem 0;
 
     &-figure{
         img{
             width: 15rem;
+        }
+    }
+    &-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .btn-close{
+            background-size: .7rem;
+        }
+
+        .btn-close:focus{
+            box-shadow: none;
         }
     }
 }
