@@ -82,13 +82,12 @@ const eventBtnProduct = (e) => {
 const addToCart = (product) => {
     const toast = new bootstrap.Toast(toastLive)
     toast.show();
-    console.log('holi')
+
     const listCart = JSON.parse(localStorage.getItem('products-cart')) || [];
     const {isProductInCart,indexProduct,quantity} = verifyProductInCart(product.id, listCart);
-    console.log(isProductInCart,indexProduct,quantity)
+  
     if(isProductInCart){
         listCart[indexProduct] = {...product,quantity:quantity + 1};
-        console.log(listCart)
     }else{
         listCart.push({...product,quantity:1});
     }
@@ -113,6 +112,9 @@ const verifyProductInCart = (id, listCart) => {
 }
 
 const redeirectToCart = () => {
-    const url =  window.location.href.split('/')[0];
-    window.location.href = url + '/views/shopingCart.html';
+    const url =  window.location.href.split('/');
+    url.pop();
+    const urlBase = url.join('/');
+    console.log()
+    window.location.href = urlBase +'/shopingCart.html';
 }
