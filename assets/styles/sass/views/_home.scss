@@ -121,6 +121,8 @@ nav {
     gap: 1%;
     .cart {
         color: black;
+        width: 1.5rem;
+        margin-right: .6rem;
     }
 
     svg {
@@ -454,7 +456,12 @@ footer {
         gap: 0;
         .cart {
             color: black;
-            width: 2.4rem;
+            width: 1.5rem;
+            margin-right: .6rem;
+            cursor: pointer;
+        }
+        span{
+            color:#3E756E;
         }
         .menu-icono {
             display: none;

@@ -497,7 +497,9 @@ nav {
   justify-content: flex-end;
   gap: 1%; }
   .contenedor-icono-carrito .cart {
-    color: black; }
+    color: black;
+    width: 1.5rem;
+    margin-right: .6rem; }
   .contenedor-icono-carrito svg {
     color: #F4B56E; }
 
@@ -750,7 +752,11 @@ footer {
     gap: 0; }
     .contenedor-icono-carrito .cart {
       color: black;
-      width: 2.4rem; }
+      width: 1.5rem;
+      margin-right: .6rem;
+      cursor: pointer; }
+    .contenedor-icono-carrito span {
+      color: #3E756E; }
     .contenedor-icono-carrito .menu-icono {
       display: none; }
   /*---------------- MAIN ---------------- */

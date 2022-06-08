@@ -1,4 +1,5 @@
 let botonSideMenu = document.getElementById("boton-side-menu");
+let botonCart = document.querySelector('.cart');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 
 window.addEventListener("click", (e) => {
@@ -10,3 +11,10 @@ window.addEventListener("click", (e) => {
         }
     }
 })
+
+botonCart.addEventListener('click',()=> redeirectToCart())
+
+const redeirectToCart = () => {
+    const url =  window.location.href.split('/')[0];
+    window.location.href = url + '/views/shopingCart.html';
+}

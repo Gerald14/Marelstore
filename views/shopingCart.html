@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../assets/images/Logo-I.png" type="image/x-icon" sizes="16x20">
-    <title>Marelstore | Contacto</title>
+    <link rel="icon" href="../assets/images/Logo_ms.png" type="image/x-icon" sizes="16x20">
+    <title>Marelstore | Catalogo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="../assets/styles/css/compilado.css">
 </head>
 <body>
-    <!-- Encabezado -->
-    <header class="container-fluid shadow-sm">
+     <!-- Encabezado -->
+     <header class="container-fluid shadow-sm">
         <nav class="navbar-expand-lg">
             <div class="contenedor-logo"><img class="imagen-logo" src="../assets/images/Logo_ms.png" alt="logo"></div>
 
@@ -22,7 +22,8 @@
                 <ul class="listado-items-menu">
                     <li><a href="../index.html">INICIO</a></li>
                     <li><a href="">NOSOTROS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#">CATALOGO</a></li>
+                    <li><a href="./contact.html">CONTACTO</a></li>
                 </ul>
                 <div class="iconos-redes-menu"><span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
@@ -48,7 +49,7 @@
                     <li class="li-catalogo"><a href="">Nosotros</a></li>
                     <!-- Sub menu Catalogo-->
                     <li class="li-catalogo">
-                        <a href="./catalog.html">Catalogo</a>
+                        <a href="#">Catalogo</a>
                         <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                             <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
                                 <div>
@@ -87,12 +88,16 @@
                             </div>
                         </div>
                     </li>
-                    <li class="li-catalogo"><a href="#">Contacto</a></li>
+                    <li class="li-catalogo"><a href="./contact.html">Contacto</a></li>
                 </ul>
             </div>
             <!-- Iconoces carrito y menu mobile -->
             <div class="contenedor-icono-carrito">
-                <img src="https://img.icons8.com/ios-glyphs/30/444444/shopping-basket-2.png"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" fill="currentColor"
+                    class="bi bi-cart2 cart" viewBox="0 0 16 16">
+                    <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                </svg>
                 <svg xmlns="http://www.w3.org/2000/svg" id="boton-side-menu" width="34" height="28" fill="currentColor"
                     class="bi bi-list menu-icono" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -101,13 +106,12 @@
         </nav>
     </header>
 
-    <!-- Contacto -->
+    <!-- Catalogo -->
     <main>
-        
         <div class="background">
-
-            <!-- Background -->
-            <div class="bg bg-1">
+            
+             <!-- Background -->
+             <div class="bg bg-1">
                 <img src="../assets/images/Background_fg2.png" alt="" srcset="">
             </div>
             <div class="bg bg-2">
@@ -120,76 +124,33 @@
                 <img src="../assets/images/Background_fp.png" alt="" srcset="">
             </div>
 
-            <!-- Seccion de Contactanos -->
+            <!-- Seccion de Carrito -->
             <section>
-                <div class="contact">
+                <div class="shopcart">
                     <div class="container">
-                        <div class="row">
-                            <div class="col contact-header">
-                                <img src="../assets/images/Contact_icon.png" alt="" srcset="">
-                                <h4 class="contact-title">Contactanos</h4>
-                            </div>
-                        </div>
-                        <div class="row  mb-5 mt-3">
-                          <div class="col-lg-7 col-md-6 col-sm-12 mb-sm-3 contact-detail">
-                              <div class="row">
-                                  <div class="col m-lg-4">
-                                      <div class="avatar">
-                                        <img src="../assets/images/Avatar_ms.png" alt="">
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                <div class="col contact-detail-row">
-                                    <div class="icon-circle">
-                                        <img src="../assets/images/Delivery_icon.jpeg" alt="">
-                                    </div>
-                                    <span>Se hacen envíos Lima y provincias previo depósito.</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col contact-detail-row">
-                                    <div class="icon-circle">
-                                        <img src="../assets/images/Schedule_icon.jpeg" alt="">
-                                    </div>
-                                    <span>9:00 am - 8:00 pm </span>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-5 col-md-6 col-sm-12">
-                              <div class="card contact-card">
-                                  <div class="card-body">
-                                    <div class="row mb-3">
-                                        <div class="col">
-                                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                            <input type="text" class="form-control" placeholder="" aria-label="First name">
-                                        </div>
-                                        <div class="col">
-                                            <label for="exampleFormControlInput1" class="form-label">Telefono</label>
-                                            <input type="tel" class="form-control" placeholder="" aria-label="Last name">
-                                        </div>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Correo</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                                    </div>  
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-                                    <div class="mb-3">
-                                        <button class="btn btn-primary" type="submit">Enviar</button>
-                                    </div>
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
-            
         </div>
     </main>
+
+    <!-- Template - Producto-Item-Cart -->
+    <template id="template-product-cart">
+        <div class="product-cart">
+            <div class="product-figure">
+                <img src="" alt="" />
+            </div>
+            <div class="product-title">name</div>
+            <div class="product-price">price</div>
+            <div class="product-details">
+                <div class="product-details-btns">
+                    <button class="btn btn-dark btn-view">View</button>
+                    <button class="btn btn-dark btn-add">Add</button>
+                </div>
+            </div>
+        </div>
+    </template>
 
     <!-- Footer -->
     <footer>
@@ -255,7 +216,6 @@
         </div>
         <div class="derechos-footer">2022 - All rights reserved</div>
     </footer>
-   
     <!-- CDN's y JS -->
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -264,5 +224,6 @@
     <!-- Uikit -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
+    <script src="../js/catalog.js"></script>
 </body>
 </html>

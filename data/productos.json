@@ -26,6 +26,7 @@
         ]
     },
     {
+        "id": 3,
         "title": "Escobilla para vasos/botellas 🥃",
         "price": 10,
         "description": " ",
@@ -38,6 +39,7 @@
         ]
     },
     {
+        "id": 4,
         "title": "Cepillo de limpieza c/ mango retractil",
         "price": 13,
         "description": " ",
@@ -50,6 +52,7 @@
         ]
     },
     {
+        "id": 5,
         "title": "Humidificador conejito 🐰",
         "price": 36,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
@@ -62,6 +65,7 @@
         ]
     },
     {
+        "id": 6,
         "title": "Cepillos de limpieza especial",
         "price": 25,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
@@ -74,6 +78,7 @@
         ]
     },
     {
+        "id": 7,
         "title": "Cepillos de limpieza especial",
         "price": 25,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
@@ -86,6 +91,7 @@
         ]
     },
     {
+        "id": 8,
         "title": "Cepillos de limpieza especial",
         "price": 25,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",

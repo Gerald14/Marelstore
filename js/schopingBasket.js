@@ -1,0 +1,5 @@
+
+
+shopingCart.addEventListener('click',() => {
+
+})
