@@ -1376,6 +1376,8 @@ footer {
     .contact-detail-row {
       gap: 1rem;
       margin: .5rem 3rem; }
+  .catalog-title {
+    margin-left: 2.3rem; }
   .catalog .filter {
     margin: 0 2rem; }
     .catalog .filter-content {
