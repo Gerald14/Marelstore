@@ -73,11 +73,14 @@ const deleteProduct = (e) => {
     const btnDelete = e.target;
     const idProduct = btnDelete.dataset.id;
     const newListCart = deleteProductById(idProduct,listCart);
-    console.log(newListCart)
-    localStorage.setItem('products-cart',JSON.stringify(newListCart));
+    // Pinta el summary actualizado
     const {total, amount} = getSummary(newListCart);
-    cleanDivByClass('.cart-summary')
+    cleanDivByClass('.cart-summary');
     paintSummary(total,amount);
+    // Pinta la lista actualizada
+    cleanDivByClass('.cart-products');
+    paintCartProducts(newListCart);
+    localStorage.setItem('products-cart',JSON.stringify(newListCart));
 }
 
 function cleanDivByClass(classDiv){
