@@ -21,7 +21,7 @@ listProducts.addEventListener('click',e => eventBtnProduct(e))
 const fetchData = async() => {
     try {
 
-        const response  = await fetch('../../data/productos.json');
+        const response  = await fetch('../data/producto.json');
         const data = await response.json();
         products = data;
         console.log(data)
