@@ -8,14 +8,14 @@ const listProducts = document.querySelector('.products-list');
 const btnShopingCart = document.querySelector('.cart');
 
 //Templates
+const toastLive = document.getElementById('liveToast')
 const templateProduct = document.getElementById('template-product').content;
 const fragment = document.createDocumentFragment();
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => fetchData());
 btnShopingCart.addEventListener('click',() => redeirectToCart());
-listProducts.addEventListener('click',e => eventBtnProduct(e))
-
+listProducts.addEventListener('click',e => eventBtnProduct(e));
 
 
 const fetchData = async() => {
@@ -27,6 +27,7 @@ const fetchData = async() => {
         console.log(data)
         paintProducts(data);
         let viewButtons = document.querySelectorAll(".btn-view")
+       
         viewButtons.forEach((el) => {
             el.addEventListener("click", (o) => {
                 // localStorage.clear();
@@ -60,6 +61,8 @@ const paintProduct = ({id,images,title,price}) => {
     templateProduct.querySelector('.product-title').textContent = title;
     templateProduct.querySelector('.product-price').textContent = price;
     templateProduct.querySelector('.btn-view').dataset.id = id;
+    templateProduct.querySelector('.bi-basket-fill').dataset.id = id;
+    templateProduct.querySelector('.bi-basket-fill path').dataset.id = id;
     templateProduct.querySelector('.btn-add').dataset.id = id;
 
     const clone = templateProduct.cloneNode(true);
@@ -70,16 +73,22 @@ const eventBtnProduct = (e) => {
     const btnCurrent  = e.target;
     const idProduct = btnCurrent.dataset.id;
     const product = products[idProduct - 1];
-    if (btnCurrent.className.includes('btn-add')) {
+
+    if (idProduct) {
         addToCart(product);
     }
 }
 
 const addToCart = (product) => {
+    const toast = new bootstrap.Toast(toastLive)
+    toast.show();
+    console.log('holi')
     const listCart = JSON.parse(localStorage.getItem('products-cart')) || [];
-    const {isProcustInCart,indexProduct,quantity} = verifyProductInCart(product.id, listCart);
-    if(isProcustInCart){
+    const {isProductInCart,indexProduct,quantity} = verifyProductInCart(product.id, listCart);
+    console.log(isProductInCart,indexProduct,quantity)
+    if(isProductInCart){
         listCart[indexProduct] = {...product,quantity:quantity + 1};
+        console.log(listCart)
     }else{
         listCart.push({...product,quantity:1});
     }
@@ -87,18 +96,20 @@ const addToCart = (product) => {
 }
 
 const verifyProductInCart = (id, listCart) => {
-    let isProcustInCart = false;
+    let isProductInCart = false;
     let indexProduct = -1;
     let quantity = 0;
     console.log('listCart',listCart)
     listCart.forEach((item,index) =>{ 
-        item.id === id && (isProcustInCart = true) 
-        if(isProcustInCart){
+       console.log(item.id, id)
+        if(item.id == id){
+            isProductInCart = true;
+            console.log('index',index)
             indexProduct = index;
             quantity = item.quantity;
         }
     });
-    return {isProcustInCart,indexProduct,quantity};
+    return {isProductInCart,indexProduct,quantity};
 }
 
 const redeirectToCart = () => {

@@ -21,6 +21,8 @@ const paintInitCart = () => {
        
         paintCartProducts(productsCart);
         paintSummary(total,amount);
+    }else{
+        paintSummary()
     }
     
 }
@@ -35,8 +37,9 @@ const paintCartProducts = (products) => {
 
 const paintProduct = ({id,title,images,price,quantity}) => {
     templateProductCart.querySelector('img').setAttribute('src',`../assets/images/${images[0]}`);
-    templateProductCart.querySelector('.product-title').textContent = title;
-    templateProductCart.querySelector('.product-price').textContent = price;
+    templateProductCart.querySelector('.product-cart-title').textContent = title;
+    templateProductCart.querySelector('.product-cart-price').textContent = price;
+    templateProductCart.querySelector('.product-cart-quantity').textContent = quantity;
     templateProductCart.querySelector('.btn-view').dataset.id = id;
     templateProductCart.querySelector('.btn-add').dataset.id = id;
 

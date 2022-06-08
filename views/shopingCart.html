@@ -21,8 +21,8 @@
                 <div class="contenedor-logo-menu"><img src="../assets/images/Logo_ms.png" alt="logo"></div>
                 <ul class="listado-items-menu">
                     <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="">NOSOTROS</a></li>
-                    <li><a href="#">CATALOGO</a></li>
+                    <li><a href="./about.html">NOSOTROS</a></li>
+                    <li><a href="./catalog.html">CATALOGO</a></li>
                     <li><a href="./contact.html">CONTACTO</a></li>
                 </ul>
                 <div class="iconos-redes-menu"><span>
@@ -46,10 +46,10 @@
             <div id="contenedor-items-desktop" uk-navbar="boundary-align: true; align: center;">
                 <ul class="listado-items-menu-desktop">
                     <li class="li-catalogo"><a href="../index.html">Inicio</a></li>
-                    <li class="li-catalogo"><a href="">Nosotros</a></li>
+                    <li class="li-catalogo"><a href="./about.html">Nosotros</a></li>
                     <!-- Sub menu Catalogo-->
                     <li class="li-catalogo">
-                        <a href="#">Catalogo</a>
+                        <a href="./catalog.html">Catalogo</a>
                         <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                             <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
                                 <div>
@@ -132,12 +132,12 @@
                             <h2>Carrito de compras</h2>
                         </div>
                         <div class="row">
-                            <div class="col-lg-8 col-md-6 col-sm-12">
+                            <div class="col-lg-8 col-md-7 col-sm-12">
                                 <div class="cart-products">
 
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-lg-4 col-md-5 col-sm-12">
                                 <div class="cart-summary">
 
                                 </div>
@@ -150,18 +150,27 @@
         </div>
     </main>
 
+    
+
     <!-- Template - Producto-Item-Cart -->
     <template id="template-product-cart">
         <div class="product-cart">
-            <div class="product-figure">
-                <img src="" alt="" />
-            </div>
-            <div class="product-title">name</div>
-            <div class="product-price">price</div>
-            <div class="product-details">
-                <div class="product-details-btns">
-                    <button class="btn btn-dark btn-view">View</button>
-                    <button class="btn btn-dark btn-add">Add</button>
+            <div class="row">
+                <div class="col">
+                    <div class="product-cart-figure">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-cart-title">name</div>
+                    <div class="product-cart-price">price</div>
+                    <div class="product-cart-quantity">price</div>
+                    <div class="product-details">
+                        <div class="product-details-btns">
+                            <button class="btn btn-dark btn-view">View</button>
+                            <button class="btn btn-dark btn-add">Add</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
