@@ -115,6 +115,5 @@ const redeirectToCart = () => {
     const url =  window.location.href.split('/');
     url.pop();
     const urlBase = url.join('/');
-    console.log()
     window.location.href = urlBase +'/shopingCart.html';
 }

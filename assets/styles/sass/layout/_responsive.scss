@@ -1,5 +1,6 @@
 @media screen and (max-width: 780px){
-    
+
+    // CONTACTO
     .contact{
         &-detail{
             gap: 1rem;
@@ -12,6 +13,7 @@
         }
     }
 
+    // CATALOGO
     .catalog{
         .filter{
             margin: 0 2rem;
@@ -20,11 +22,39 @@
                 width: 100%;
             }
         }
-    
-        .product{
+        .products{
             margin: 0 2rem;
         }
+    
+        .product{
+           
+            &-details{
+                position: relative;
+                opacity: 1;
+                background: transparent;
+                .btn{
+                    margin-bottom: 2rem;
+                    filter: none;
+                    border-radius: 10px;
+                    width: 4rem;
+                }
+            }
+            &-price{
+                padding-bottom: 1rem;
+            }
+        }
 
+    }
+
+    // CARRITO DE COMPRAS
+    .product-cart{
+        padding: 0rem 1rem 1rem 1rem;
+
+        &-figure{
+            img{
+                width: 8rem;
+            }
+        }
     }
     
 }
