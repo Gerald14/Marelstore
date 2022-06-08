@@ -56,7 +56,7 @@ const paintProducts = (productsList) => {
 
 const paintProduct = ({id,images,title,price}) => {
 
-    templateProduct.querySelector('img').setAttribute('src',`../../assets/images/${images[0]}`);
+    templateProduct.querySelector('img').setAttribute('src',`../assets/images/${images[0]}`);
     templateProduct.querySelector('.product-title').textContent = title;
     templateProduct.querySelector('.product-price').textContent = price;
     templateProduct.querySelector('.btn-view').dataset.id = id;
