@@ -77,8 +77,9 @@ const eventBtnProduct = (e) => {
 
 const addToCart = (product) => {
     const listCart = JSON.parse(localStorage.getItem('products-cart')) || [];
-    if(verifyProductInCart(product.id, listCart)){
-        listCart.push({...product,quantity:product.quantity + 1});
+    const {isProcustInCart,indexProduct,quantity} = verifyProductInCart(product.id, listCart);
+    if(isProcustInCart){
+        listCart[indexProduct] = {...product,quantity:quantity + 1};
     }else{
         listCart.push({...product,quantity:1});
     }
@@ -87,9 +88,17 @@ const addToCart = (product) => {
 
 const verifyProductInCart = (id, listCart) => {
     let isProcustInCart = false;
+    let indexProduct = -1;
+    let quantity = 0;
     console.log('listCart',listCart)
-    listCart.forEach(item => item.id === id &&(isProcustInCart=true));
-    return isProcustInCart;
+    listCart.forEach((item,index) =>{ 
+        item.id === id && (isProcustInCart = true) 
+        if(isProcustInCart){
+            indexProduct = index;
+            quantity = item.quantity;
+        }
+    });
+    return {isProcustInCart,indexProduct,quantity};
 }
 
 const redeirectToCart = () => {
