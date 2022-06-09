@@ -1,6 +1,10 @@
 let botonSideMenu = document.getElementById("boton-side-menu");
 let botonCart = document.querySelector('.cart');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
+const cartPrice = document.querySelector('.carrito-price');
+
+//Eventos
+document.addEventListener('DOMContentLoaded',e => paintInit());
 
 window.addEventListener("click", (e) => {
     if(botonSideMenu.contains(e.target)) {
@@ -20,4 +24,26 @@ const redeirectToCart = () => {
     var bicho = url.pop();
     console.log(bicho)
     window.location.href = '/views/shopingCart.html';
+}
+
+const paintInit = () => {
+    const dataCart = JSON.parse(localStorage.getItem('products-cart'));
+        if(dataCart.length > 0){
+            const amount = getAmountCart(dataCart);
+            paintAmountCart(amount)
+        }
+
+}
+
+const paintAmountCart = (amount) => {
+    cartPrice.textContent = 'S/.'+ amount.toFixed(2);
+}
+
+const getAmountCart = (products) => {
+    let amount = 0;
+    products.forEach(({quantity,price}) => {
+        amount += Number(quantity)*Number(price);
+    });
+
+    return amount
 }

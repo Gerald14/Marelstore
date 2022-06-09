@@ -17,8 +17,6 @@ let pestañaDetalle = document.getElementById("pestaña-detalle-producto");
 let contenedorDetalleDescripcion = document.getElementById("contenedor-descripcion-detalle");
 
 
-
-
 const fetchProductos = async () => {
     
     const resp = await fetch('../data/productos.json')
@@ -61,3 +59,4 @@ function buscarProducto () {
     let obj = productoBuscado[0];
     llenarElementos(obj);
 }
+

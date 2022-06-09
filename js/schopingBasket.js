@@ -2,7 +2,7 @@
 const listProductsCart = document.querySelector('.cart-products');
 const summaryCart = document.querySelector('.cart-summary');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
-
+const cartPrice = document.querySelector('.carrito-price');
 //Botones
 // const btnShopingCart = document.querySelector('.cart');
 let btnSideMenu = document.getElementById("boton-side-menu");
@@ -34,7 +34,7 @@ const paintInitCart = () => {
    
     if(productsCart.length>0){
         const {total,amount} = getSummary(productsCart);
-       
+        paintAmountCart(amount)
         paintCartProducts(productsCart);
         paintSummary(total,amount);
     }else{
@@ -42,6 +42,7 @@ const paintInitCart = () => {
     }
     
 }
+
 
 const paintCartProducts = (products) => {
     products.map((product)=>{
@@ -71,6 +72,10 @@ const paintSummary = (total=0,amount=0) => {
 
     const clone = templateSumaryCart.cloneNode(true);
     summaryCart.appendChild(clone)
+}
+
+const paintAmountCart = (amount) => {
+    cartPrice.textContent = 'S/.'+ amount.toFixed(2);
 }
 
 const getSummary = (products) => {
@@ -104,7 +109,5 @@ function cleanDivByClass(classDiv){
         list.removeChild(list.firstChild);
     }
 }
-
-
 
 const deleteProductById = (id,arr) => arr.filter(item => item.id!=id);

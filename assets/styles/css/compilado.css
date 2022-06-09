@@ -431,6 +431,8 @@ html, body {
 .shopcart {
   position: relative;
   z-index: 20; }
+  .shopcart-title {
+    padding-top: 2rem; }
 
 .summary-cart {
   display: flex;
@@ -1415,6 +1417,9 @@ footer {
       width: 4rem; }
   .catalog .product-price {
     padding-bottom: 1rem; }
+  .shopcart-title {
+    text-align: center;
+    margin-top: 2rem; }
   .product-cart {
     padding: 0rem 1rem 1rem 1rem; }
     .product-cart-figure img {

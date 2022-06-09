@@ -4,7 +4,7 @@ let products = [];
 // Listas
 const listProducts = document.querySelector('.products-list');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
-
+const cartPrice = document.querySelector('.carrito-price');
 
 //Botones
 const btnShopingCart = document.querySelector('.cart');
@@ -35,12 +35,18 @@ window.addEventListener("click", (e) => {
 
 const fetchData = async() => {
     try {
+        const dataCart = JSON.parse(localStorage.getItem('products-cart'));
+        if(dataCart.length > 0){
+            console.log('pintar')
+            const amount = getAmountCart(dataCart);
+            paintAmountCart(amount)
+        }
 
         const response  = await fetch('../data/producto.json');
         const data = await response.json();
         products = data;
-        console.log(data)
         paintProducts(data);
+
         let viewButtons = document.querySelectorAll(".btn-view")
        
         viewButtons.forEach((el) => {
@@ -131,4 +137,17 @@ const redeirectToCart = () => {
     url.pop();
     const urlBase = url.join('/');
     window.location.href = urlBase +'/shopingCart.html';
+}
+
+const paintAmountCart = (amount) => {
+    cartPrice.textContent = 'S/.'+ amount.toFixed(2);
+}
+
+const getAmountCart = (products) => {
+    let amount = 0;
+    products.forEach(({quantity,price}) => {
+        amount += Number(quantity)*Number(price);
+    });
+
+    return amount
 }
