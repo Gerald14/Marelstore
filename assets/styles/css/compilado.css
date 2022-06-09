@@ -514,7 +514,10 @@ nav {
   background-color: white;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
-  z-index: 10; }
+  z-index: 10;
+  opacity: 0; }
+  .contenedor-items-mobile.active {
+    opacity: 1; }
   .contenedor-items-mobile .contenedor-logo-menu {
     width: 70%;
     height: 30%;
