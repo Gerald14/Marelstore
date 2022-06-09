@@ -90,6 +90,7 @@ const paintProduct = ({id,images,title,price}) => {
     return clone;
 }
 
+
 const eventBtnProduct = (e) => {
     const btnCurrent  = e.target;
     const idProduct = btnCurrent.dataset.id;

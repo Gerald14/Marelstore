@@ -39,6 +39,7 @@ const paintInitCart = () => {
         paintSummary(total,amount);
     }else{
         paintSummary()
+        paintMessageEmpty()
     }
     
 }
@@ -76,6 +77,13 @@ const paintSummary = (total=0,amount=0) => {
 
 const paintAmountCart = (amount) => {
     cartPrice.textContent = 'S/.'+ amount.toFixed(2);
+}
+
+const paintMessageEmpty = () => {
+    const div = document.createElement('div');
+    div.className = 'cart-empty';
+    div.textContent = 'El carrito esta vacio';
+    listProductsCart.appendChild(div);
 }
 
 const getSummary = (products) => {
