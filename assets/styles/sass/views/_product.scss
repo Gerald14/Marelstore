@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 10;
 
 }
 
@@ -97,7 +98,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     padding-left: 2rem;
     //border: 1px solid pink;
 }
@@ -151,6 +152,7 @@
 .cantidad-compra-encabezado {
     font-size: 0.8rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .cantidad-compra-producto {
@@ -268,4 +270,77 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.background-figuras-producto {
+    width: inherit;
+    //overflow: hidden;
+    position: relative;
+
+    .background-p-1 {
+        position: absolute;
+        left: -50px;
+        top: 50px;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    .background-p-2 {
+        position: absolute;
+        right: -50px;
+        top: 50px;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    .background-p-3 {
+        position: absolute;
+        left: -80px;
+        top: 85vh;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    .background-p-4 {
+        position: absolute;
+        right: 0px;
+        top: 90vh;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    .background-p-5 {
+        position: absolute;
+        left: -50px;
+        top: 90vh*2;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    .background-p-6 {
+        position: absolute;
+        right: -80px;
+        top: 90vh*2;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
 }
