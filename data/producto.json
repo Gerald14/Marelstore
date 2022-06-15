@@ -60,8 +60,8 @@
         "stock": 4,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Difusor_conejo_1.jpg",
+            "Difusor_conejo_2.png"
         ]
     },
     {
@@ -86,21 +86,21 @@
         "stock": 3,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Canguro_mickey_1.jpg",
+            "Canguro_mickey_2.jpg"
         ]
     },
     {
         "id": 8,
-        "title": "Star Bellys (Niños)",
+        "title": "Star Bellys",
         "price": 40,
         "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo",
         "details":"Color Disponible: Blanco",
         "stock": 3,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Star_belly_1.jpg",
+            "Star_belly_2.jpg"
         ]
     },
     {
@@ -112,8 +112,8 @@
         "stock": 3,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Happy_napper_1.jpeg",
+            "Happy_napper_2.jpg"
         ]
     },
     {
@@ -125,8 +125,8 @@
         "stock": 3,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Muñeca_1.jpeg",
+            "Muñeca_2.jpg"
         ]
     },
     {
@@ -138,8 +138,8 @@
         "stock": 3,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Organizador_1.jpeg",
+            "Organizador_2.jpeg"
         ]
     },
     {
@@ -151,8 +151,8 @@
         "stock": 1,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Vaso_anti_1.jpeg",
+            "Vaso_anti_2.jpeg"
         ]
     },
     {
@@ -164,8 +164,8 @@
         "stock": 3,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Manta_1.jpg",
+            "Manta_2.jpg"
         ]
     },
     {
@@ -177,17 +177,82 @@
         "stock": 3,
         "category":1,
         "images": [
+            "Bata_1.jpeg",
+            "Bata_2.png",
+            "Bata_3.png"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Ametralladora de burbujas",
+        "price": 17,
+        "description": "The Bubble Guns tiene 8/15 agujeros de burbujas para soplar cientos de burbujas coloridas por minuto.",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 2,
+        "category":1,
+        "images": [
+            "Ametralladora_1.jfif",
+            "Ametralladora.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Mortero de piedra con maja",
+        "price": 40,
+        "description": "Este mortero está hecho de un único y sólido bloque de piedra, confiriéndole una construcción fuerte.",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 2,
+        "category":1,
+        "images": [
+            "Mortero_1.jpg",
+            "Mortero_2.webp"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Hula Hula Hoop inteligente",
+        "price": 38,
+        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 1,
+        "category":1,
+        "images": [
             "Cepillo_espec_1.jpeg",
             "Cepillo_espec_2.jpeg"
         ]
     },
     {
-        "id": 13,
-        "title": "Mantas Luminosas",
-        "price": 40,
-        "description": "Esta manta especial puede ser el mejor guardián para su hijo por la noche. \n Las mantas son ideales para el uso diario, como ver la TV, leer en el sofá,  en una silla o cama. También puede ser una decoración para el hogar, puede llevarlo de viaje. ",
+        "id": 18,
+        "title": "Taza Kawai Gatito",
+        "price": 38,
+        "description": "¡Una taza para amantes de los gatunos!        ",
         "details":"Material: felpa \n Medidas:1.60 x 65cm",
-        "stock": 3,
+        "stock": 1,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Lampara para insectos UV",
+        "price": 38,
+        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 1,
+        "category":1,
+        "images": [
+            "Lampara_zanc.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Mirabel de encanto",
+        "price": 38,
+        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 1,
         "category":1,
         "images": [
             "Cepillo_espec_1.jpeg",
