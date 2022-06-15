@@ -79,11 +79,11 @@
     },
     {
         "id": 7,
-        "title": "Cepillos de limpieza especial",
-        "price": 25,
+        "title": "Canguro Mickey (Disney) de Zara",
+        "price": 50,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
-        "details":"Color Disponible: Blanco",
-        "stock": 4,
+        "details":"Color Disponible: Negro",
+        "stock": 3,
         "category":1,
         "images": [
             "Cepillo_espec_1.jpeg",
@@ -92,11 +92,11 @@
     },
     {
         "id": 8,
-        "title": "Cepillos de limpieza especial",
-        "price": 25,
-        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "title": "Star Bellys (Niños)",
+        "price": 40,
+        "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo",
         "details":"Color Disponible: Blanco",
-        "stock": 4,
+        "stock": 3,
         "category":1,
         "images": [
             "Cepillo_espec_1.jpeg",
@@ -104,11 +104,90 @@
         ]
     },
     {
-        "title": "Cepillos de limpieza especial",
-        "price": 25,
-        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "id": 9,
+        "title": "Happy Nappers",
+        "price": 50,
+        "description": "Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.",
         "details":"Color Disponible: Blanco",
-        "stock": 4,
+        "stock": 3,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Muñeca Cocomelon",
+        "price": 50,
+        "description": "Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.",
+        "details":"Color Disponible: Blanco",
+        "stock": 3,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Organizador de cables",
+        "price": 13.5,
+        "description": "Manten de forma mas ordenada tus cables y enchufes",
+        "details":"Kit de 04 und \n Material: plastico \n Medidas:5.47 x 3.78 x 0.87cm \n Colores: varios",
+        "stock": 3,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Vaso Antiderrame Kids",
+        "price": 38,
+        "description": "Es un vaso con asa y su sistema antiderrame ideal para empezar a beber solito Su asa aportan independencia.",
+        "details":"Medidas: 11.7cm de alto x 9cm de ancho \n 01 modelo disponible",
+        "stock": 1,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Mantas Luminosas",
+        "price": 40,
+        "description": "Esta manta especial puede ser el mejor guardián para su hijo por la noche. \n Las mantas son ideales para el uso diario, como ver la TV, leer en el sofá,  en una silla o cama. También puede ser una decoración para el hogar, puede llevarlo de viaje. ",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 3,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Batas Overzise Minnie Mouse y pata Daysi",
+        "price": 66,
+        "description": "Para estas tardes de Frío Batas largas, modelo Disney con capucha,botones ",
+        "details":"Material: micropolar afelpado 'antialergico' \n Talla: S y M",
+        "stock": 3,
+        "category":1,
+        "images": [
+            "Cepillo_espec_1.jpeg",
+            "Cepillo_espec_2.jpeg"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Mantas Luminosas",
+        "price": 40,
+        "description": "Esta manta especial puede ser el mejor guardián para su hijo por la noche. \n Las mantas son ideales para el uso diario, como ver la TV, leer en el sofá,  en una silla o cama. También puede ser una decoración para el hogar, puede llevarlo de viaje. ",
+        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "stock": 3,
         "category":1,
         "images": [
             "Cepillo_espec_1.jpeg",
