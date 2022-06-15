@@ -105,6 +105,15 @@
     </header>
 
     <main class="main-producto-informacion">
+        <div class="background-figuras-producto">
+            <div class="background-p-1"><img src="../assets/images/Background_fp.png" alt=""></div>
+            <div class="background-p-2"><img src="../assets/images/Background_fy2.png" alt=""></div>
+            <div class="background-p-3"><img src="../assets/images/Background_to.png" alt=""></div>
+            <div class="background-p-4"><img src="../assets/images/Background_fg.png" alt=""></div>
+            <div class="background-p-5"><img src="../assets/images/Background_ly.png" alt=""></div>
+            <div class="background-p-6"><img src="../assets/images/Background_fg2.png" alt=""></div>
+        </div>
+        
         <div class="contenedor-breadcrumb">
             <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -124,7 +133,7 @@
                 </div>
             </div>
                 <div class="info-compra-producto">
-                    <div class="detalle-producto-stock">En stock</div>
+                    <!-- <div class="detalle-producto-stock">Detalles</div> -->
                     <div class="contenedor-nombre-precio">
                         <div class="detalle-nombre-producto" id="nombre-producto"></div>
                         <div class="detalle-precio-producto" id="precio-producto"></div>
@@ -132,15 +141,15 @@
                     <div class="contenedor-cantidad-compra">
                         <div class="cantidad-compra-encabezado">Cantidad</div>
                         <div class="cantidad-compra-producto">
-                            <div class="mas-cantidad" id="boton-mas">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                                </svg>
-                            </div>
-                            <div class="cantidad-actual-compra" id="cantidad-mostrar">1</div>
                             <div class="menos-cantidad" id="boton-menos">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                                </svg>
+                            </div>
+                            <div class="cantidad-actual-compra" id="cantidad-mostrar">1</div>
+                            <div class="mas-cantidad" id="boton-mas">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
                                 </svg>
                             </div>
                         </div>
@@ -166,16 +175,16 @@
                 Productos relacionados
             </div>
             <div class="cards-relacionados">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/images/Cepillo_limp_1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card" style="width: 18rem;" id="card-relacionados-1">
+                    <img src="" id="img-relacionado-1" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-text" id="nombre-relacionado-1"></p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/images/Botella_multi_1.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card" style="width: 18rem;" id="card-relacionados-2">
+                    <img src="" id="img-relacionado-2" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-text" id="nombre-relacionado-2"></p>
                     </div>
                 </div>
             </div>

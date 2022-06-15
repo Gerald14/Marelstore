@@ -36,10 +36,12 @@ window.addEventListener("click", (e) => {
 const fetchData = async() => {
     try {
         const dataCart = JSON.parse(localStorage.getItem('products-cart'));
-        if(dataCart.length > 0){
-            console.log('pintar')
-            const amount = getAmountCart(dataCart);
-            paintAmountCart(amount)
+        if (!dataCart == null) {
+            if(dataCart.length > 0){
+                console.log('pintar')
+                const amount = getAmountCart(dataCart);
+                paintAmountCart(amount)
+            }
         }
 
         const response  = await fetch('../data/producto.json');
@@ -47,15 +49,16 @@ const fetchData = async() => {
         products = data;
         paintProducts(data);
 
-        let viewButtons = document.querySelectorAll(".btn-view")
+        let viewButtons = document.querySelectorAll(".bi-eye")
        
         viewButtons.forEach((el) => {
             el.addEventListener("click", (o) => {
-                // localStorage.clear();
-                let getProduct = (products.filter((elem) => elem.id == o.target.dataset.id));
+                // localStorage.remove("content")
+                let getProduct = (products.filter((elem) => elem.id == o.target.parentNode.dataset.id));
                 let productID = getProduct[0].id;
                 localStorage.setItem("content", productID)
-                window.location.replace("../views/product.html");
+
+                window.location.replace("../views/product.html");//Cambiar la forma
                 
             })
         })
