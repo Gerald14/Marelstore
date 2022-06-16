@@ -383,7 +383,7 @@ html, body {
   width: 12rem;
   height: 2.5rem;
   border: transparent; }
-  .boton-agregar-carrito input {
+  .boton-agregar-carrito div {
     border-radius: 4px;
     border: transparent;
     background-color: #3E716A;
@@ -491,7 +491,8 @@ html, body {
   margin-bottom: 1.5rem; }
   .summary-cart .summary-title h5 {
     font-size: 1.5rem; }
-  .summary-cart .summary-total, .summary-cart .summary-amount {
+  .summary-cart .summary-total,
+  .summary-cart .summary-amount {
     display: flex;
     justify-content: space-between;
     margin-top: .5rem; }
@@ -520,6 +521,13 @@ html, body {
       background-size: .7rem; }
     .product-cart-body .btn-close:focus {
       box-shadow: none; }
+
+.boton-envio-wp {
+  color: white;
+  text-decoration: none; }
+  .boton-envio-wp:focus {
+    color: white;
+    text-decoration: none; }
 
 body {
   display: flex;

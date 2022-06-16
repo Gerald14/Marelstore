@@ -119,3 +119,25 @@ function cleanDivByClass(classDiv){
 }
 
 const deleteProductById = (id,arr) => arr.filter(item => item.id!=id);
+
+//Envío a WhatsApp del carrito de compras
+let botonEnviarWp = templateSumaryCart.querySelector("#completar-orden-wp");
+console.log(botonEnviarWp);
+const listCartWp = JSON.parse(localStorage.getItem('products-cart')) || [];
+let totalWp = 0;
+let productosWp = "";
+for (let i = 0; i < listCartWp.length; i++) {
+    const element = `[${listCartWp[i].title} x ${listCartWp[i].quantity}] `;
+    productosWp = productosWp + element;
+}
+for (let i = 0; i < listCartWp.length; i++) {
+    const elementWp = listCartWp[i].price * listCartWp[i].quantity;
+    totalWp = totalWp + elementWp;
+}
+console.log(totalWp);
+
+botonEnviarWp.href = `https://wa.me/+51997523677?text=Hola%21%20Quiero%20adquirir%20estos%20productos%3A%0D%0A${productosWp}%20%7C%20%0D%0APrecio%20total%20%3D%20${totalWp}%20soles`;
+
+
+
+

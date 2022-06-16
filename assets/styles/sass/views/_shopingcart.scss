@@ -1,14 +1,13 @@
-
-.shopcart{
+.shopcart {
     position: relative;
     z-index: 20;
 
-    &-title{
+    &-title {
         padding-top: 2rem;
     }
 }
 
-.summary-cart{
+.summary-cart {
     display: flex;
     flex-direction: column;
     background-color: #e4f0f0;
@@ -16,55 +15,68 @@
     padding: 2rem;
     margin-bottom: 1.5rem;
 
-    .summary-title{
-        h5{
+    .summary-title {
+        h5 {
             font-size: 1.5rem;
         }
     }
 
-    .summary-total,.summary-amount{
+    .summary-total,
+    .summary-amount {
         display: flex;
         justify-content: space-between;
         margin-top: .5rem;
     }
-    
-    .btn-complete{
+
+    .btn-complete {
         margin-top: 1rem;
         background-color: #3E716A;
     }
 
 }
 
-.cart-products{
+.cart-products {
     border-top: 1px solid #e6e5e5;
     padding-top: 2rem;
     margin-right: 2rem;
     margin-bottom: 4rem;
 
-    hr{
+    hr {
         border-top: 1px solid #b1b1b1;
         margin-top: 0;
     }
 }
 
-.product-cart{
+.product-cart {
     padding: 2rem 0;
 
-    &-figure{
-        img{
+    &-figure {
+        img {
             width: 15rem;
         }
     }
-    &-body{
+
+    &-body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        .btn-close{
+
+        .btn-close {
             background-size: .7rem;
         }
 
-        .btn-close:focus{
+        .btn-close:focus {
             box-shadow: none;
         }
+    }
+}
+
+.boton-envio-wp {
+    color: white;
+    text-decoration: none;
+
+    &:focus {
+        color: white;
+        text-decoration: none;
     }
 }
