@@ -133,7 +133,8 @@ html, body {
   margin-top: 4rem; }
   .catalog .products-content {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 2rem; }
   .catalog .products-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(13.2rem, 1fr));

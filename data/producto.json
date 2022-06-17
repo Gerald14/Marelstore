@@ -217,8 +217,7 @@
         "stock": 1,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Hula_hula.jpeg"
         ]
     },
     {
@@ -230,8 +229,7 @@
         "stock": 1,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Taza_kawai.jpeg"
         ]
     },
     {
@@ -255,8 +253,7 @@
         "stock": 1,
         "category":1,
         "images": [
-            "Cepillo_espec_1.jpeg",
-            "Cepillo_espec_2.jpeg"
+            "Mirabel.jpeg"
         ]
     }
 ]
