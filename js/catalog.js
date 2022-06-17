@@ -88,6 +88,8 @@ const paintProduct = ({id,images,title,price}) => {
     templateProduct.querySelector('.bi-basket-fill').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill path').dataset.id = id;
     templateProduct.querySelector('.btn-add').dataset.id = id;
+    templateProduct.querySelector('.bi-eye').dataset.id = id;
+    templateProduct.querySelector('.bi-eye path').dataset.id = id;
 
     const clone = templateProduct.cloneNode(true);
     return clone;
