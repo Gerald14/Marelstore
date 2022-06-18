@@ -1426,8 +1426,12 @@ footer {
     border-bottom: 2px solid #F4B56E; }
   .foto-equipo {
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem; } }
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden; }
+    .foto-equipo img {
+      height: inherit;
+      object-fit: cover; } }
 
 .background {
   position: relative;
