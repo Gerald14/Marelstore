@@ -54,7 +54,7 @@ const fetchData = async() => {
         viewButtons.forEach((el) => {
             el.addEventListener("click", (o) => {
                 // localStorage.remove("content")
-                let getProduct = (products.filter((elem) => elem.id == o.target.parentNode.dataset.id));
+                let getProduct = (products.filter((elem) => elem.id == o.target.dataset.id));
                 let productID = getProduct[0].id;
                 localStorage.setItem("content", productID)
 

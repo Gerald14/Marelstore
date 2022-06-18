@@ -164,9 +164,11 @@ html, body {
       object-fit: cover; }
   .catalog .product-title {
     padding-top: 1.5rem;
-    color: #151515;
+    color: #C48033;
     font-size: .8rem;
-    font-weight: 600; }
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .catalog .product-price {
     padding: .7rem 1rem;
     padding-bottom: 1.5rem;
