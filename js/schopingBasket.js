@@ -3,18 +3,21 @@ const listProductsCart = document.querySelector('.cart-products');
 const summaryCart = document.querySelector('.cart-summary');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 const cartPrice = document.querySelector('.carrito-price');
-//Botones
-// const btnShopingCart = document.querySelector('.cart');
-let btnSideMenu = document.getElementById("boton-side-menu");
-
 //Templates
 const templateProductCart = document.getElementById('template-product-cart').content;
 const templateSumaryCart = document.getElementById('template-summary-cart').content;
 const fragment = document.createDocumentFragment();
+//Botones
+// const btnShopingCart = document.querySelector('.cart');
+let btnSideMenu = document.getElementById("boton-side-menu");
+let botonEnviarWp = templateSumaryCart.querySelector(".btn-complete");
+
+
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInitCart());
 listProductsCart.addEventListener('click',e => deleteProduct(e))
+summaryCart.addEventListener('click',e => clearCart(e))
 
 window.addEventListener("click", (e) => {
     if(btnSideMenu.contains(e.target)) {
@@ -28,6 +31,28 @@ window.addEventListener("click", (e) => {
         }
     }
 })
+
+const clearCart = (e) => {
+    console.log(e.target.classList)
+    const classBtn = e.target.classList;
+    console.log(classBtn)
+    if(classBtn.contains('btn-complete')){
+        const listCartWp = JSON.parse(localStorage.getItem('products-cart')) || [];
+        let totalWp = 0;
+        let productosWp = "";
+        for (let i = 0; i < listCartWp.length; i++) {
+            const element = `[${listCartWp[i].title} x ${listCartWp[i].quantity}] `;
+            productosWp = productosWp + element;
+        }
+        for (let i = 0; i < listCartWp.length; i++) {
+            const elementWp = listCartWp[i].price * listCartWp[i].quantity;
+            totalWp = totalWp + elementWp;
+        }
+        window.location.href = `https://wa.me/+51997523677?text=Hola%21%20Quiero%20adquirir%20estos%20productos%3A%0D%0A${productosWp}%20%7C%20%0D%0APrecio%20total%20%3D%20${totalWp}%20soles`;
+        localStorage.setItem('products-cart',JSON.stringify([]))
+
+    }
+}
 
 const paintInitCart = () => {
     const productsCart = JSON.parse(localStorage.getItem('products-cart'))||[];
@@ -160,26 +185,7 @@ function cleanDivByClass(classDiv){
 
 const deleteProductById = (id,arr) => arr.filter(item => item.id!=id);
 
-//Envío a WhatsApp del carrito de compras
-let botonEnviarWp = templateSumaryCart.querySelector("#completar-orden-wp");
-console.log(botonEnviarWp);
-const listCartWp = JSON.parse(localStorage.getItem('products-cart')) || [];
-let totalWp = 0;
-let productosWp = "";
-for (let i = 0; i < listCartWp.length; i++) {
-    const element = `[${listCartWp[i].title} x ${listCartWp[i].quantity}] `;
-    productosWp = productosWp + element;
-}
-for (let i = 0; i < listCartWp.length; i++) {
-    const elementWp = listCartWp[i].price * listCartWp[i].quantity;
-    totalWp = totalWp + elementWp;
-}
-console.log(totalWp);
-console.log(productosWp);
-if(productosWp.length>0){
 
-    botonEnviarWp.href = `https://wa.me/+51997523677?text=Hola%21%20Quiero%20adquirir%20estos%20productos%3A%0D%0A${productosWp}%20%7C%20%0D%0APrecio%20total%20%3D%20${totalWp}%20soles`;
-}
 
 
 
