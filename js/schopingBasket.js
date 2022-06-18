@@ -99,15 +99,56 @@ const deleteProduct = (e) => {
     const listCart = JSON.parse(localStorage.getItem('products-cart'));
     const btnDelete = e.target;
     const idProduct = btnDelete.dataset.id;
-    const newListCart = deleteProductById(idProduct,listCart);
-    // Pinta el summary actualizado
-    const {total, amount} = getSummary(newListCart);
-    cleanDivByClass('.cart-summary');
-    paintSummary(total,amount);
-    // Pinta la lista actualizada
-    cleanDivByClass('.cart-products');
-    paintCartProducts(newListCart);
-    localStorage.setItem('products-cart',JSON.stringify(newListCart));
+
+    const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-success',
+          cancelButton: 'btn btn-danger'
+        },
+        buttonsStyling: false
+      })
+      
+      swalWithBootstrapButtons.fire({
+        title: 'Estas seguro?',
+        text: "Seguro desea elminar este producto de su carrito!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Si',
+        cancelButtonText: 'No',
+        reverseButtons: true
+      }).then((result) => {
+        if (result.isConfirmed) {
+
+          const newListCart = deleteProductById(idProduct,listCart);
+           // Pinta el summary actualizado
+          const {total, amount} = getSummary(newListCart);
+          cleanDivByClass('.cart-summary');
+          paintSummary(total,amount);
+          // Pinta la lista actualizada
+          cleanDivByClass('.cart-products');
+          paintCartProducts(newListCart);
+          localStorage.setItem('products-cart',JSON.stringify(newListCart));
+
+          swalWithBootstrapButtons.fire(
+            'Eliminado!',
+            'Su producto fue eliminado del carrito.',
+            'success'
+          )
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire(
+            'Cancelado',
+            'Tu producto sigue en el carrito 😄',
+            'error'
+          )
+        }
+      })
+}
+
+const msgSweetAlertToDelete = ()=>{
+    
 }
 
 function cleanDivByClass(classDiv){
@@ -135,8 +176,11 @@ for (let i = 0; i < listCartWp.length; i++) {
 }
 console.log(totalWp);
 console.log(productosWp);
+if(productosWp.length>0){
 
-botonEnviarWp.href = `https://wa.me/+51997523677?text=Hola%21%20Quiero%20adquirir%20estos%20productos%3A%0D%0A${productosWp}%20%7C%20%0D%0APrecio%20total%20%3D%20${totalWp}%20soles`;
+    botonEnviarWp.href = `https://wa.me/+51997523677?text=Hola%21%20Quiero%20adquirir%20estos%20productos%3A%0D%0A${productosWp}%20%7C%20%0D%0APrecio%20total%20%3D%20${totalWp}%20soles`;
+}
+
 
 
 
