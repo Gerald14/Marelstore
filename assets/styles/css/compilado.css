@@ -908,7 +908,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 38rem;
     width: 100%;
     justify-content: center; }
     #carrusel-productos .carrusel-destacado {
@@ -1453,7 +1453,13 @@ footer {
     left: -15px;
     bottom: -40px; }
 
+@media screen and (max-width: 1120px) {
+  #carrusel-productos {
+    height: 28rem; } }
+
 @media screen and (max-width: 780px) {
+  #carrusel-productos {
+    height: 20rem; }
   .contact-detail {
     gap: 1rem;
     margin-bottom: 1rem; }

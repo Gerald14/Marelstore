@@ -1,5 +1,13 @@
+@media screen and (max-width: 1120px){
+    #carrusel-productos {
+        height: 28rem;
+    }
+}
 @media screen and (max-width: 780px){
 
+    #carrusel-productos {
+        height: 20rem;
+    }
     // CONTACTO
     .contact{
         &-detail{
