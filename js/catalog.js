@@ -125,9 +125,8 @@ const verifyProductInCart = (id, listCart) => {
     let isProductInCart = false;
     let indexProduct = -1;
     let quantity = 0;
-    console.log('listCart',listCart)
+    
     listCart.forEach((item,index) =>{ 
-       console.log(item.id, id)
         if(item.id == id){
             isProductInCart = true;
             console.log('index',index)

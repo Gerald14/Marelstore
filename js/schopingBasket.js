@@ -44,7 +44,6 @@ const paintInitCart = () => {
     
 }
 
-
 const paintCartProducts = (products) => {
     products.map((product)=>{
         const tmp = paintProduct(product);
@@ -135,6 +134,7 @@ for (let i = 0; i < listCartWp.length; i++) {
     totalWp = totalWp + elementWp;
 }
 console.log(totalWp);
+console.log(productosWp);
 
 botonEnviarWp.href = `https://wa.me/+51997523677?text=Hola%21%20Quiero%20adquirir%20estos%20productos%3A%0D%0A${productosWp}%20%7C%20%0D%0APrecio%20total%20%3D%20${totalWp}%20soles`;
 

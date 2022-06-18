@@ -1,6 +1,7 @@
 .shopcart {
     position: relative;
     z-index: 20;
+    min-height: 500px;
 
     &-title {
         padding-top: 2rem;

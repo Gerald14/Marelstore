@@ -479,7 +479,8 @@ html, body {
 
 .shopcart {
   position: relative;
-  z-index: 20; }
+  z-index: 20;
+  min-height: 500px; }
   .shopcart-title {
     padding-top: 2rem; }
 
