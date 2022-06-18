@@ -2,6 +2,7 @@ let botonSideMenu = document.getElementById("boton-side-menu");
 let botonCart = document.querySelector('.cart');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 const cartPrice = document.querySelector('.carrito-price');
+let hola = document.querySelector(".contenedor-icono-carrito")
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInit());
