@@ -98,10 +98,11 @@ const paintProduct = ({id,images,title,price}) => {
 
 const eventBtnProduct = (e) => {
     const btnCurrent  = e.target;
+    const classBtn  = e.target.classList;
     const idProduct = btnCurrent.dataset.id;
     const product = products[idProduct - 1];
 
-    if (idProduct) {
+    if (idProduct && (classBtn.contains('btn-add') || classBtn.contains('bi-basket-fill') || classBtn.contains('btn-add-path')) ) {
         addToCart(product);
     }
 }
