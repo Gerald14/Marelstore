@@ -114,6 +114,15 @@ const updateCart = () => {
         }
 }
 
+const getAmountCart = (products) => {
+    let amount = 0;
+    products.forEach(({quantity,price}) => {
+        amount += Number(quantity)*Number(price);
+    });
+
+    return amount
+}
+
 const paintMessageEmpty = () => {
     const div = document.createElement('div');
     div.className = 'cart-empty';
