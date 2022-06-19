@@ -1259,6 +1259,14 @@ footer {
     list-style: none;
     font-family: "Fredella", sans-serif;
     font-size: 0.9rem; }
+  #card-oferta-1 {
+    cursor: pointer; }
+  #card-oferta-2 {
+    cursor: pointer; }
+  #card-oferta-3 {
+    cursor: pointer; }
+  #card-oferta-4 {
+    cursor: pointer; }
   #videos-evidencias {
     width: 100%;
     height: 80vh;
