@@ -44,6 +44,11 @@ const  filterProducts = () => {
             const newList = getListByCategoryId(index)
             cleanDivByClass('.products-list');
             paintProducts(newList);
+            if(index==0){
+                cleanDivByClass('.products-list');
+                paintProducts(products);
+            }
+            
         }
     })
 }
