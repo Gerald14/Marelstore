@@ -29,7 +29,7 @@ const redeirectToCart = () => {
 
 const paintInit = () => {
     const dataCart = JSON.parse(localStorage.getItem('products-cart'));
-    if (!dataCart == null) {
+    if (dataCart != null) {
         if(dataCart.length > 0){
             const amount = getAmountCart(dataCart);
             paintAmountCart(amount)
