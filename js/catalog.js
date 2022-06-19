@@ -90,7 +90,7 @@ const fetchData = async() => {
 
         const response  = await fetch('../data/producto.json');
         const data = await response.json();
-        
+        products = data;
         paintProducts(data);
 
         let viewButtons = document.querySelectorAll(".btn-view")
