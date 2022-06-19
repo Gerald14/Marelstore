@@ -64,6 +64,17 @@ const cleanDivByClass = (classDiv) =>{
     }
 }
 
+const updateCart = () => {
+    const dataCart = JSON.parse(localStorage.getItem('products-cart'));
+        if ( dataCart != null) {
+            if(dataCart.length > 0){
+                console.log('pintar')
+                const amount = getAmountCart(dataCart);
+                paintAmountCart(amount)
+            }
+        }
+}
+ 
 const fetchData = async() => {
     try {
         const dataCart = JSON.parse(localStorage.getItem('products-cart'));
@@ -135,6 +146,7 @@ const eventBtnProduct = (e) => {
 
     if (idProduct && (classBtn.contains('btn-add') || classBtn.contains('bi-basket-fill') || classBtn.contains('btn-add-path')) ) {
         addToCart(product);
+        updateCart();
     }
 }
 
