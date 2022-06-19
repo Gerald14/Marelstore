@@ -36,7 +36,7 @@ window.addEventListener("click", (e) => {
 const fetchData = async() => {
     try {
         const dataCart = JSON.parse(localStorage.getItem('products-cart'));
-        if (!dataCart == null) {
+        if ( dataCart != null) {
             if(dataCart.length > 0){
                 console.log('pintar')
                 const amount = getAmountCart(dataCart);
