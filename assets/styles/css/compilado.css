@@ -21,6 +21,10 @@ html, body {
 
 .contact-card {
   background-color: #FBDBC3; }
+  .contact-card .btn-send {
+    background-color: #3E716A;
+    border: none;
+    width: 100%; }
 
 .contact-header {
   display: flex;

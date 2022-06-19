@@ -14,6 +14,11 @@ $estilos: (
 
     &-card{
         background-color: #FBDBC3;
+        .btn-send{
+            background-color: #3E716A;
+            border: none;
+            width: 100%;
+        }
     }
 
     &-header{
