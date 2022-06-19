@@ -37,36 +37,14 @@ window.addEventListener("click", (e) => {
 
 const  filterProducts = () => {
     const list_filter = document.querySelectorAll('.filter__check')
-   console.log(list_filter)
+    
     list_filter.forEach((filter,index)=>{
-        console.log('index',index)
-        switch (index) {
-            case 0:
-                if(filter.checked){
-                    
-                    cleanDiv('.products-list');
-                    paintProducts(products);
-                }
-                break;
-            case 1:
-                if(filter.checked){
-                    const newList = getListByCategoryId(index)
-                    cleanDiv('.products-list');
-                    paintProducts(newList);
-                }
-                break;
-            case 2:
-                if(filter.checked){
-                    const newList = getListByCategoryId(index)
-                    cleanDiv('.products-list');
-                    paintProducts(newList);
-                }
-                 break;
-                    
-            default:
-                break;
+        console.log(index)
+        if(filter.checked && index > 0){
+            const newList = getListByCategoryId(index)
+            cleanDivByClass('.products-list');
+            paintProducts(newList);
         }
-        
     })
 }
 
@@ -131,7 +109,7 @@ const paintProduct = ({id,images,title,price}) => {
 
     templateProduct.querySelector('img').setAttribute('src',`../assets/images/${images[0]}`);
     templateProduct.querySelector('.product-title').textContent = title;
-    templateProduct.querySelector('.product-price').textContent = price;
+    templateProduct.querySelector('.product-price').textContent = 'S/.'+price;
     templateProduct.querySelector('.btn-view').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill path').dataset.id = id;
