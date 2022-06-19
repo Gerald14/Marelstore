@@ -72,14 +72,14 @@
 }
 
 .background-n-1 {
-    width: 100%;
+    width: 8rem;
     position: absolute;
     left: 180px;
     top: 180px;
     z-index: 1;
 
     img {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 }
@@ -98,27 +98,27 @@
 }
 
 .background-n-3 {
-    width: 100%;
+    width: 8rem;
     position: absolute;
     left: 240px;
     bottom: 190px;
     z-index: 1;
 
     img {
-        width: 40%;
+        width: 100%;
         height: auto;
     }
 }
 
 .background-n-4 {
-    width: 100%;
+    width: 8rem;
     position: absolute;
     left: 50px;
     bottom: 335px;
     z-index: 1;
 
     img {
-        width: 30%;
+        width: 100%;
         height: auto;
     }
 }
@@ -351,7 +351,8 @@
         width: 6rem;
         height: 6rem;
         overflow: hidden;
-        img{
+
+        img {
             height: inherit;
             object-fit: cover;
         }

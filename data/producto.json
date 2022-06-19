@@ -16,8 +16,8 @@
         "id": 2,
         "title": "Mini batidora manual a pilas",
         "price": 12.50,
-        "description": " ",
-        "details":" ",
+        "description": "Úsalo para batir: CAFÉ, CREMA, CAPUCCINO",
+        "details": [""],
         "stock": 4,
         "category": 1,
         "images": [
@@ -55,8 +55,8 @@
         "id": 5,
         "title": "Humidificador conejito 🐰",
         "price": 36,
-        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
-        "details":"Color Disponible: Blanco",
+        "description": "Se adapta perfectamente a sus habitaciones, oficinas y otros lugares por su tamaño pequeño. El funcionamiento silencioso, no interfiere con su sueño.",
+        "details": ["Capacidad de 200ML", "Color Rosa y Blanco", "Carga USB ultrasónico", "Apagado automático"],
         "stock": 4,
         "category":1,
         "images": [
@@ -81,8 +81,8 @@
         "id": 7,
         "title": "Canguro Mickey (Disney) de Zara",
         "price": 50,
-        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
-        "details":"Color Disponible: Negro",
+        "description": "Canguro con forma Mickey Mouse que cuenta con un compartimiento principal con cierre mediante cremallera",
+        "details": "Forro interior estampado <br/>Cierre mediante clip <br/>Tamaño: 32 x 12 cm Color negro",
         "stock": 3,
         "category":1,
         "images": [
@@ -94,8 +94,8 @@
         "id": 8,
         "title": "Star Bellys",
         "price": 40,
-        "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo",
-        "details":"Color Disponible: Blanco",
+        "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo. Ideal para el hogar, viajes, fiestas de pijamas, juegos y mucho más",
+        "details": ["Funciona con 3 pilas AAA (no incluidas)", "Material: 100% felpa de poliéster", "Medidas:24 x 14 cm", "No es lavable en máquina", "Modelos Disponibles: Azul y Marrón"],
         "stock": 3,
         "category":1,
         "images": [
@@ -108,7 +108,7 @@
         "title": "Happy Nappers",
         "price": 50,
         "description": "Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.",
-        "details":"Color Disponible: Blanco",
+        "details":["Medidas: 50 cm de ancho x 1.29 cm de largo", "Modelo Disponibles: Mariquita, Perrito Amarillo, Dragón", "Para niños de hasta 03 añoss"],
         "stock": 3,
         "category":1,
         "images": [
@@ -120,8 +120,8 @@
         "id": 10,
         "title": "Muñeca Cocomelon",
         "price": 50,
-        "description": "Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.",
-        "details":"Color Disponible: Blanco",
+        "description": "¡La muñeca altamente detallada está inspirada en J.J., un popular de la serie educativa de YouTube, CoComelon!",
+        "details": ["Edad 18m y más"],
         "stock": 3,
         "category":1,
         "images": [
@@ -213,7 +213,7 @@
         "title": "Hula Hula Hoop inteligente",
         "price": 38,
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "details":"Material: felpa \nMedidas:1.60 x 65cm",
         "stock": 1,
         "category":1,
         "images": [

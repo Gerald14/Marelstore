@@ -50,9 +50,9 @@ nav {
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     z-index: 10;
-    opacity: 0;
+    opacity: 1;
 
-    &.active{
+    &.active {
         opacity: 1;
     }
 
@@ -71,6 +71,7 @@ nav {
         align-items: flex-end;
         justify-content: center;
         gap: 7%;
+
         li {
             width: 80%;
             height: 10%;
@@ -78,6 +79,7 @@ nav {
             font-family: "Fredella", sans-serif;
             font-size: 1.2rem;
             font-weight: 600;
+
             a {
                 color: #256943;
                 width: 100%;
@@ -112,8 +114,13 @@ nav {
     height: 15%;
     display: flex;
     justify-content: space-evenly;
+
     img {
         width: 100%;
+    }
+
+    a {
+        color: black;
     }
 }
 
@@ -124,6 +131,7 @@ nav {
     align-items: center;
     justify-content: flex-end;
     gap: 1%;
+
     .cart {
         color: black;
         width: 1.5rem;
@@ -157,10 +165,12 @@ main {
     height: 50vh;
     width: 100%;
     justify-content: center;
+
     .carrusel-destacado {
         width: 100%;
         height: 80%;
     }
+
     .contenedor-encabezado-destacados {
         display: flex;
         height: 20%;
@@ -168,17 +178,20 @@ main {
         align-items: center;
         width: 100%;
         gap: 10px;
+
         .linea-encabezado {
             align-self: flex-start;
             height: 50%;
             width: 20%;
             border-bottom: 3px solid #F4B56E;
         }
+
         .encabezado-destacado {
             width: 80%;
             display: flex;
             align-items: center;
-            h2 {
+
+            h3 {
                 font-weight: 600;
                 font-family: "Fredella", sans-serif;
             }
@@ -197,10 +210,22 @@ main {
 #videos-evidencias {
     width: 100%;
     height: 50vh;
+
     .video-clientes {
         background-color: #FBDBC3;
         height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+
+        video {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 5px;
+        }
     }
+
     .contenedor-encabezado-videos {
         height: 20%;
         width: 100%;
@@ -208,16 +233,19 @@ main {
         flex-direction: row;
         align-items: center;
         gap: 10px;
+
         .linea-encabezado-video {
             align-self: flex-start;
             height: 50%;
             width: 20%;
             border-bottom: 3px solid #F4B56E;
         }
+
         .encabezado-video {
             width: 80%;
             text-align: right;
-            h2 {
+
+            h3 {
                 font-weight: 600;
                 font-family: "Fredella", sans-serif;
             }
@@ -247,6 +275,7 @@ main {
         justify-content: center;
         align-items: center;
         background-color: rgb(254, 222, 198);
+
         img {
             width: 100%;
             height: auto;
@@ -336,8 +365,10 @@ footer {
         top: 1rem;
         right: 0;
         list-style: none;
+        color: #F4B56E;
+        font-weight: 500;
     }
-    
+
     ul {
         list-style-type: none;
 
@@ -360,7 +391,7 @@ footer {
     justify-content: center;
     gap: 0.9rem;
     border-left: 1px solid white;
-    
+
     svg {
         color: white;
     }
@@ -374,6 +405,7 @@ footer {
     color: white;
     font-size: 0.8rem;
 }
+
 .footer-redes-informacion-desktop {
     display: none;
 }
@@ -385,6 +417,7 @@ footer {
         margin: 0;
         padding: 0;
     }
+
     body {
         font-family: "Fredella", sans-serif;
         display: flex;
@@ -411,16 +444,19 @@ footer {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+
         .imagen-logo {
             width: 90px;
             height: fit-content;
         }
     }
+
     #contenedor-items-desktop {
         width: 34%;
         height: 100%;
         display: flex;
         flex-direction: row;
+
         .listado-items-menu-desktop {
             margin: 0;
             padding: 0;
@@ -432,13 +468,16 @@ footer {
             gap: 1rem;
             width: 100%;
             height: 100%;
+
             .li-catalogo {
                 border-bottom: 2px solid #F4B56E;
                 width: 5rem;
                 text-align: center;
+
                 a {
                     color: black;
                     font-family: "Fredella", sans-serif;
+
                     &:hover {
                         text-decoration: none;
                     }
@@ -446,12 +485,15 @@ footer {
             }
         }
     }
+
     .contenedor-items-mobile {
         display: none;
     }
+
     .iconos-redes-menu {
         display: none;
     }
+
     .contenedor-icono-carrito {
         width: 33%;
         height: 100%;
@@ -459,18 +501,25 @@ footer {
         align-items: center;
         justify-content: flex-end;
         gap: 0;
+
         .cart {
             color: black;
             width: 1.5rem;
             margin-right: .6rem;
             cursor: pointer;
         }
-        span{
-            color:#3E756E;
+
+        span {
+            color: #3E756E;
         }
+
         .menu-icono {
             display: none;
         }
+    }
+
+    .catalogo-drop {
+        width: fit-content !important;
     }
 
     /*---------------- MAIN ---------------- */
@@ -491,17 +540,21 @@ footer {
         height: 38rem;
         width: 100%;
         justify-content: center;
+
         .carrusel-destacado {
             width: 100%;
             height: 100%;
         }
+
         .contenedor-encabezado-destacados {
             display: none;
         }
     }
+
     .contenedor-imagenes-carrusel {
         width: 100%;
         height: 100%;
+
         img {
             max-width: 100% !important;
             height: auto !important;
@@ -521,17 +574,20 @@ footer {
         height: 2.5rem;
         background-color: #3E756E;
     }
+
     .encabezado-ofertas {
         width: 100%;
         height: 10%;
         display: flex;
         align-items: center;
         justify-content: center;
+
         h3 {
             border-bottom: 2px solid #F4B56E;
             font-family: "Fredella", sans-serif;
         }
     }
+
     .encabezado-ofertas-opciones {
         width: 100%;
         height: 5%;
@@ -541,16 +597,19 @@ footer {
         justify-content: center;
         gap: 2rem;
         list-style: none;
+
         li {
             a {
                 color: black;
                 font-family: "Fredella", sans-serif;
+
                 &:hover {
                     text-decoration: none;
                 }
             }
         }
     }
+
     .ofertas-cards {
         width: 100%;
         height: 80%;
@@ -567,11 +626,13 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .card-nombre-producto {
         list-style: none;
         font-family: "Fredella", sans-serif;
         font-size: 1rem;
     }
+
     .card-precio-producto {
         list-style: none;
         font-family: "Fredella", sans-serif;
@@ -593,6 +654,14 @@ footer {
             height: 20rem;
             order: 2;
             border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            video {
+                width: 100%;
+                height: 90%;
+            }
         }
 
         .contenedor-encabezado-videos {
@@ -617,8 +686,9 @@ footer {
 
                 h3 {
                     text-align: center;
+                    text-transform: uppercase;
                     height: fit-content;
-                    width: 6rem;
+                    width: fit-content;
                     //border: solid 1px black;
                     font-weight: 400;
                     border-bottom: 2px solid #F4B56E;
@@ -761,6 +831,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+
         .caja-logo-footer {
             //border: solid 1px red;
             display: flex;
@@ -768,6 +839,7 @@ footer {
             align-items: center;
             width: 80%;
             height: 80%;
+
             img {
                 width: 180px;
                 height: 180px;
@@ -783,17 +855,20 @@ footer {
             align-items: center;
             gap: 1rem;
             border-top: solid 1px white;
+
             svg {
                 color: white;
             }
         }
     }
+
     .caja-informacion-footer {
         width: 70%;
         height: 100%;
         //border: solid 1px blue;
         display: flex;
     }
+
     .caja-informacion-nosotros-footer {
         width: 33%;
         height: 100%;
@@ -802,14 +877,27 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:focus {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
         h4 {
             color: #F4B56E;
         }
+
         li {
             list-style: none;
             color: white;
         }
     }
+
     .caja-informacion-productos-footer {
         width: 33%;
         height: 100%;
@@ -818,14 +906,17 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
         h4 {
-                color: #F4B56E;
-            }
+            color: #F4B56E;
+        }
+
         li {
             list-style: none;
             color: white;
         }
     }
+
     .caja-informacion-horario-footer {
         width: 34%;
         height: 100%;
@@ -834,9 +925,11 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
         h4 {
-                color: #F4B56E;
-            }
+            color: #F4B56E;
+        }
+
         li {
             list-style: none;
             color: white;

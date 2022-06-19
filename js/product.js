@@ -69,6 +69,7 @@ function llenarElementos ({id, title, price, description, details, images}) {
         contenedorDetalleDescripcion.innerHTML = description;
     };
     pestañaDetalle.onclick = () => {
+         
         contenedorDetalleDescripcion.innerHTML = details;
     };
 
@@ -79,9 +80,9 @@ function llenarElementos ({id, title, price, description, details, images}) {
         imagenMuestra1.src = cambioImg;
     }
     imagenMuestra2 ? imagenMuestra2.onclick = () => {
-        let cambioImg2 = `../assets/images/${images[0]}`;
+        let cambioImg = imagenCentral.src
         imagenCentral.src = imagenMuestra2.src;
-        imagenMuestra2.src = cambioImg2; 
+        imagenMuestra2.src = cambioImg; 
     } : "";
 }
 

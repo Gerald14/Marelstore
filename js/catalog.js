@@ -49,7 +49,7 @@ const fetchData = async() => {
         products = data;
         paintProducts(data);
 
-        let viewButtons = document.querySelectorAll(".bi-eye")
+        let viewButtons = document.querySelectorAll(".btn-view")
        
         viewButtons.forEach((el) => {
             el.addEventListener("click", (o) => {
@@ -57,8 +57,8 @@ const fetchData = async() => {
                 let getProduct = (products.filter((elem) => elem.id == o.target.dataset.id));
                 let productID = getProduct[0].id;
                 localStorage.setItem("content", productID)
-
-                window.location.replace("../views/product.html");//Cambiar la forma
+                
+                window.location.href = "../views/product.html"
                 
             })
         })
