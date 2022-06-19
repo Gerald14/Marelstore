@@ -803,6 +803,9 @@ html, body {
     .product-cart-body .btn-close:focus {
       box-shadow: none; }
 
+.product-cart-title {
+  font-weight: 600; }
+
 .boton-envio-wp {
   color: white;
   text-decoration: none; }
