@@ -152,8 +152,9 @@ const eventBtnProduct = () => {
 }
 
 const addToCart = (product) => {
-    /* const toast = new bootstrap.Toast(toastLive)
-    toast.show(); */
+    const toastLive = document.getElementById('liveToast')
+     const toast = new bootstrap.Toast(toastLive)
+    toast.show(); 
 
     const listCart = JSON.parse(localStorage.getItem('products-cart')) || [];
     const {isProductInCart,indexProduct,quantity} = verifyProductInCart(product.id, listCart);
