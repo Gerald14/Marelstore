@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Botella multifuncion 8 en 1 ",
+        "title": "Botella multifunción 8 en 1 ",
         "price": 25,
         "description": " ",
         "details":" ",
@@ -16,10 +16,10 @@
         "id": 2,
         "title": "Mini batidora manual a pilas",
         "price": 12.50,
-        "description": "Úsalo para batir: CAFÉ, CREMA, CAPUCCINO",
-        "details": [""],
+        "description": "Úsalo para días de  Café, Cremas y  Capuccino en tu hogar o oficina que no te ocupa espacio y hacer de un momento agradable al momento de beberlo.",
+        "details": "Medidas: 20 cm de Largo<br/>Es portátil, no necesita corriente, es a pilas y puedes movilizarte con él a todos lados<br/>Pilas NO incluidas.",
         "stock": 4,
-        "category": 1,
+        "category": 2,
         "images": [
             "Batidora_mini_1.jpeg",
             "Batidora_mini_2.jpeg"
@@ -34,18 +34,19 @@
         "stock": 4,
         "category": 1,
         "images": [
+            "Escobilla_2.jpeg",
             "Escobilla_1.jpeg",
-            "Escobilla_2.jpeg"
+            "Escobilla_3.jpeg"
         ]
     },
     {
         "id": 4,
-        "title": "Cepillo de limpieza c/ mango retractil",
+        "title": "Cepillo de limpieza c/ mango retráctil",
         "price": 13,
         "description": " ",
         "details":" ",
         "stock": 4,
-        "category":1,
+        "category":2,
         "images": [
             "Cepillo_limp_1.jpeg",
             "Cepillo_limp_2.jpeg"
@@ -53,10 +54,10 @@
     },
     {
         "id": 5,
-        "title": "Humidificador conejito 🐰",
-        "price": 36,
-        "description": "Se adapta perfectamente a sus habitaciones, oficinas y otros lugares por su tamaño pequeño. El funcionamiento silencioso, no interfiere con su sueño.",
-        "details": ["Capacidad de 200ML", "Color Rosa y Blanco", "Carga USB ultrasónico", "Apagado automático"],
+        "title": "Humidificador conejito",
+        "price": 35,
+        "description": "Pequeño, fácil de utilizar y de trasladar a cualquier lugar, perfecto para oficina, dormitorio o sala con su funcionamiento silencioso, agregando agua y unas gotas de esencia y  hará que  disfrute de una atmósfera perfumada y relajante, purificando el aire y su piel.",
+        "details": "Capacidad de 200ML<br/>Color Rosa y Blanco<br/>Carga USB ultrasónico<br/>Cuenta con una iluminación multicolor<br/>Apagado automático",
         "stock": 4,
         "category":1,
         "images": [
@@ -66,7 +67,7 @@
     },
     {
         "id": 6,
-        "title": "Cepillos de limpieza especial",
+        "title": "Cepillos portátil multifuncional",
         "price": 25,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
         "details":"Color Disponible: Blanco",
@@ -81,8 +82,8 @@
         "id": 7,
         "title": "Canguro Mickey (Disney) de Zara",
         "price": 50,
-        "description": "Canguro con forma Mickey Mouse que cuenta con un compartimiento principal con cierre mediante cremallera",
-        "details": "Forro interior estampado <br/>Cierre mediante clip <br/>Tamaño: 32 x 12 cm Color negro",
+        "description": "Cómodo canguro para niños y adultos, llevalo a todas partes con comodidad y seguridad, estructura tipo bolso. Cuenta con sujetador con diseño de llavero manito y asa con longitud regulable de acuerdo a tus necesidades.",
+        "details": "Canguro con forma de Mickey Mouse<br/>Compartimiento principal con cierre mediante cremallera.<br/>Forro interior estampado, asa. ajustable con mensaje y cierre mediante clip.<br/>Tamaño: 32 x 12 cm.<br/>Color: Negro con rojo.",
         "stock": 3,
         "category":1,
         "images": [
@@ -94,10 +95,10 @@
         "id": 8,
         "title": "Star Bellys",
         "price": 40,
-        "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo. Ideal para el hogar, viajes, fiestas de pijamas, juegos y mucho más",
-        "details": ["Funciona con 3 pilas AAA (no incluidas)", "Material: 100% felpa de poliéster", "Medidas:24 x 14 cm", "No es lavable en máquina", "Modelos Disponibles: Azul y Marrón"],
+        "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo, un arco iris de colores que a tu hijo le encantará abrazarse con su peluche amigo día y noche. Ideal para el hogar, viajes, fiestas de pijamas, juegos y mucho más.",
+        "details": "Presiona sobre el vientre y cambia la luz a seis colores diferentes <br/> Funciona con 3 pilas AAA (no incluidas)<br/>Material: 100% felpa de poliéster<br/>Medidas:24 x 14 cm<br/>No es lavable en máquina<br/>Recomendaciones: Limpieza con un paño húmedo y secado al aire<br/>Modelos Disponibles: Azul y Marrón",
         "stock": 3,
-        "category":1,
+        "category":3,
         "images": [
             "Star_belly_1.jpg",
             "Star_belly_2.jpg"
@@ -107,10 +108,10 @@
         "id": 9,
         "title": "Happy Nappers",
         "price": 50,
-        "description": "Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.",
-        "details":["Medidas: 50 cm de ancho x 1.29 cm de largo", "Modelo Disponibles: Mariquita, Perrito Amarillo, Dragón", "Para niños de hasta 03 añoss"],
+        "description": "Happy Nappers es el amigo divertido y difuso que no es solo la almohada de juego perfecta, sino que se abre y se convierte en una cómoda sorpresa de saco de dormir. Fáciles de desenrollar, las Happy Nappers mantienen a su hijo caliente y cómodo cuando es hora de una siesta y son almohadas suaves y acogedoras perfectas para jugar o abrazarse.",
+        "details":"Modelo Disponibles: Mariquita, Perrito Amarillo, Dragón</br>Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.<br/>Medidas: 50 cm de ancho x 1.29 cm de largo<br/>Para niños de hasta 03 añoss",
         "stock": 3,
-        "category":1,
+        "category":3,
         "images": [
             "Happy_napper_1.jpeg",
             "Happy_napper_2.jpg"
@@ -119,11 +120,11 @@
     {
         "id": 10,
         "title": "Muñeca Cocomelon",
-        "price": 50,
-        "description": "¡La muñeca altamente detallada está inspirada en J.J., un popular de la serie educativa de YouTube, CoComelon!",
-        "details": ["Edad 18m y más"],
-        "stock": 3,
-        "category":1,
+        "price": 30,
+        "description": "Inspirada en la exitosa serie educativa de YouTube Kids y Netflix, CoComelon, este muñeco interactivo permite a los niños participar en sus propias aventuras de aprendizaje temprano. ¡A tu hijo le encantará abrazar a su amigo favorito CoComelon!",
+        "details": "Muñeco de peluche musical con cuerpo suave y esponjoso. Con cabeza y manos de plástico para un mayor realismo.</br> Lleva su famoso pijamita para irse a dormir.</br>Aprieta la barriguita del juguete y reproduce la popular canción de CoComelon “YesYes Bedtime.</br>",
+        "stock": 1,
+        "category":3,
         "images": [
             "Muñeca_1.jpeg",
             "Muñeca_2.jpg"
@@ -132,9 +133,9 @@
     {
         "id": 11,
         "title": "Organizador de cables",
-        "price": 13.5,
-        "description": "Manten de forma mas ordenada tus cables y enchufes",
-        "details":"Kit de 04 und \n Material: plastico \n Medidas:5.47 x 3.78 x 0.87cm \n Colores: varios",
+        "price": 13,
+        "description": "Organiza tus cables evitando accidentes con este set de Clips adhesivos con 4  organizadores. Ordena y dirige los cables de tu CPU, Monitor, Impresora, etc. Ideal para que esos cables que siempre están en el medio de tu mesa estén organizados y en el lugar donde siempre deben de estar.",
+        "details":"Kit de 04 und <br/> Material: plastico <br/> Medidas:5.47 x 3.78 x 0.87cm <br/> Colores: varios",
         "stock": 3,
         "category":1,
         "images": [
@@ -145,11 +146,11 @@
     {
         "id": 12,
         "title": "Vaso Antiderrame Kids",
-        "price": 38,
-        "description": "Es un vaso con asa y su sistema antiderrame ideal para empezar a beber solito Su asa aportan independencia.",
-        "details":"Medidas: 11.7cm de alto x 9cm de ancho \n 01 modelo disponible",
+        "price": 30,
+        "description": "El vaso antiderrame con asa es una alternativa ideal para niños que están dejando la mamadera y empezando a tomar líquidos con vaso, y lo mejor de todo es que ¡no se derrama!",
+        "details":"Medidas: 11.7cm de alto x 9cm de ancho <br/>Modelo disponible: Unicornio</br>Material: Vidrio.",
         "stock": 1,
-        "category":1,
+        "category":3,
         "images": [
             "Vaso_anti_1.jpeg",
             "Vaso_anti_2.jpeg"
@@ -158,11 +159,11 @@
     {
         "id": 13,
         "title": "Mantas Luminosas",
-        "price": 40,
-        "description": "Esta manta especial puede ser el mejor guardián para su hijo por la noche. \n Las mantas son ideales para el uso diario, como ver la TV, leer en el sofá,  en una silla o cama. También puede ser una decoración para el hogar, puede llevarlo de viaje. ",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "price": 35,
+        "description": "Esta manta especial puede ser el mejor guardián para su hijo por la noche,  son ideales para el uso diario, como ver la TV, leer en el sofá,  en una silla o cama. También puede ser una decoración para el hogar, puedes llevarlo de viaje.",
+        "details":"Material: felpa <br/> Medidas:1.60 x 65cm </br> Modelos Disponibles: Lunas con estrellas y Mariposas.",
         "stock": 3,
-        "category":1,
+        "category":3,
         "images": [
             "Manta_1.jpg",
             "Manta_2.jpg"
@@ -172,24 +173,25 @@
         "id": 14,
         "title": "Batas Overzise Minnie Mouse y pata Daysi",
         "price": 66,
-        "description": "Para estas tardes de Frío Batas largas, modelo Disney con capucha,botones ",
-        "details":"Material: micropolar afelpado 'antialergico' \n Talla: S y M",
-        "stock": 3,
+        "description": "Para los días fríos,llegaron las batas largas Oversize, modelo Disney con capucha y botones.",
+        "details":"Material: micropolar afelpado 'antialergico' <br/> Talla: S y M</br>Diseño: Minnie Mouse y Daisy.</br> No se encoje.</br> No se destiñe.</br>Es abrigadora.",
+        "stock": 2,
         "category":1,
         "images": [
             "Bata_1.jpeg",
             "Bata_2.png",
-            "Bata_3.png"
+            "Bata_3.png",
+            "Bata_4.jpg"
         ]
     },
     {
         "id": 15,
         "title": "Ametralladora de burbujas",
         "price": 17,
-        "description": "The Bubble Guns tiene 8/15 agujeros de burbujas para soplar cientos de burbujas coloridas por minuto.",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "description": "Colorido y divertido Cuenta con 8 agujeros de los cuales te permitirán crear cientos de burbujas por minuto para que la diversión sea en grande, Su practico diseño te permitirá llevarla a cualquier lugar ya que es pequeña y ligera.",
+        "details":"Está hecho de material ABS no tóxico, que es bastante seguro para niños y mascotas.<br/> Las bubble guns se pueden usar como un pequeño ventilador, quita la cabeza de la pistola, traerá un viento fresco y cómodo.</br>Uso a pilas. ( NO INCLUIDAS)</br>Colores Disponibles: Rosado y Negro.",
         "stock": 2,
-        "category":1,
+        "category":3,
         "images": [
             "Ametralladora_1.jfif",
             "Ametralladora.jpg"
@@ -197,12 +199,12 @@
     },
     {
         "id": 16,
-        "title": "Mortero de piedra con maja",
+        "title": "Mortero de piedra mármol",
         "price": 40,
-        "description": "Este mortero está hecho de un único y sólido bloque de piedra, confiriéndole una construcción fuerte.",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "description": "Este mortero está hecho de un único y sólido bloque de piedra, confiriéndole una construcción fuerte. Por su diseño son también un hermoso arreglo en el comedor, cocina o en cualquier vitrina.",
+        "details":"Ideal para moler desde especias hasta hierbas, ajos, sal, etc.<br/> Material: Piedra Mármol",
         "stock": 2,
-        "category":1,
+        "category":2,
         "images": [
             "Mortero_1.jpg",
             "Mortero_2.webp"
@@ -213,11 +215,12 @@
         "title": "Hula Hula Hoop inteligente",
         "price": 38,
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa \nMedidas:1.60 x 65cm",
+        "details":"Material: felpa <br/>Medidas:1.60 x 65cm",
         "stock": 1,
-        "category":1,
+        "category":5,
         "images": [
-            "Hula_hula.jpeg"
+            "Hula_hula_1.jpeg",
+            "Hula_hula_2.jpeg"
         ]
     },
     {
@@ -225,23 +228,25 @@
         "title": "Taza Kawai Gatito",
         "price": 38,
         "description": "¡Una taza para amantes de los gatunos!        ",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
         "stock": 1,
         "category":1,
         "images": [
-            "Taza_kawai.jpeg"
+            "Taza_kawai_1.jpeg",
+            "Taza_kawai_2.jpeg"
         ]
     },
     {
         "id": 19,
-        "title": "Lampara para insectos UV",
+        "title": "Lámpara para insectos UV",
         "price": 38,
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
         "stock": 1,
         "category":1,
         "images": [
-            "Lampara_zanc.jpg"
+            "Lampara_zanc_1.jpg",
+            "Lampara_zanc_2.jpeg"
         ]
     },
     {
@@ -249,11 +254,25 @@
         "title": "Mirabel de encanto",
         "price": 38,
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa \n Medidas:1.60 x 65cm",
+        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
+        "stock": 1,
+        "category":3,
+        "images": [
+            "Mirabel_1.jpg",
+            "Mirabel_2.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Repisa decorativa",
+        "price": 38,
+        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
+        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
         "stock": 1,
         "category":1,
         "images": [
-            "Mirabel.jpeg"
+            "Repisa_1.jpeg",
+            "Repisa_2.jpeg"
         ]
     },
     {

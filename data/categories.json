@@ -1,6 +1,26 @@
 [
     {
         "id":1,
+        "name":"Hogar"
+    },
+    {
+        "id":2,
         "name":"Cocina"
+    },
+    {
+        "id":3,
+        "name":"Niños"
+    },
+    {
+        "id":4,
+        "name":"Baño"
+    },
+    {
+        "id":5,
+        "name":"Cuidado Personal"
+    },
+    {
+        "id":6,
+        "name":"Mascotas"
     }
 ]

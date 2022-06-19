@@ -9,6 +9,7 @@ const cartPrice = document.querySelector('.carrito-price');
 //Botones
 const btnShopingCart = document.querySelector('.cart');
 let btnSideMenu = document.getElementById("boton-side-menu");
+const btnFilter = document.querySelector('.btn-filter');
 
 //Templates
 const toastLive = document.getElementById('liveToast')
@@ -19,6 +20,7 @@ const fragment = document.createDocumentFragment();
 document.addEventListener('DOMContentLoaded',e => fetchData());
 btnShopingCart.addEventListener('click',() => redeirectToCart());
 listProducts.addEventListener('click',e => eventBtnProduct(e));
+btnFilter.addEventListener('click', ()=> filterProducts())
 
 window.addEventListener("click", (e) => {
     if(btnSideMenu.contains(e.target)) {
@@ -33,10 +35,39 @@ window.addEventListener("click", (e) => {
     }
 })
 
+const  filterProducts = () => {
+    const list_filter = document.querySelectorAll('.filter__check')
+    
+    list_filter.forEach((filter,index)=>{
+        console.log(index)
+        if(filter.checked && index > 0){
+            const newList = getListByCategoryId(index)
+            cleanDivByClass('.products-list');
+            paintProducts(newList);
+            if(index==0){
+                cleanDivByClass('.products-list');
+                paintProducts(products);
+            }
+            
+        }
+    })
+}
+
+const getListByCategoryId = (index) => {
+    return products.filter(product => product.category==index)
+}
+
+const cleanDivByClass = (classDiv) =>{
+    const list = document.querySelector(classDiv)
+    while (list.firstChild) {
+        list.removeChild(list.firstChild);
+    }
+}
+
 const fetchData = async() => {
     try {
         const dataCart = JSON.parse(localStorage.getItem('products-cart'));
-        if (!dataCart == null) {
+        if ( dataCart != null) {
             if(dataCart.length > 0){
                 console.log('pintar')
                 const amount = getAmountCart(dataCart);
@@ -83,7 +114,7 @@ const paintProduct = ({id,images,title,price}) => {
 
     templateProduct.querySelector('img').setAttribute('src',`../assets/images/${images[0]}`);
     templateProduct.querySelector('.product-title').textContent = title;
-    templateProduct.querySelector('.product-price').textContent = price;
+    templateProduct.querySelector('.product-price').textContent = 'S/.'+price;
     templateProduct.querySelector('.btn-view').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill path').dataset.id = id;
