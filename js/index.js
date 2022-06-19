@@ -6,11 +6,18 @@ const cartPrice = document.querySelector('.carrito-price');
 let productOferta1 = document.getElementById("card-oferta-1"); 
 let productOferta2 = document.getElementById("card-oferta-2"); 
 let productOferta3 = document.getElementById("card-oferta-3"); 
-let productOferta4 = document.getElementById("card-oferta-4"); 
+let productOferta4 = document.getElementById("card-oferta-4");
+let opcionesCatalog = document.querySelectorAll(".categoria-catalogo"); 
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInit());
 document.addEventListener('DOMContentLoaded',e => fetchDataIndex());
+console.log(opcionesCatalog)
+opcionesCatalog.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        localStorage.setItem("categoria", e.target.dataset.id)
+    })
+})
 
 window.addEventListener("click", (e) => {
     if(botonSideMenu.contains(e.target)) {

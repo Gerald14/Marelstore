@@ -18,9 +18,11 @@ const fragment = document.createDocumentFragment();
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => fetchData());
+document.addEventListener('DOMContentLoaded',e => getIdCategoryStorage());
 btnShopingCart.addEventListener('click',() => redeirectToCart());
 listProducts.addEventListener('click',e => eventBtnProduct(e));
-btnFilter.addEventListener('click', ()=> filterProducts())
+btnFilter.addEventListener('click', ()=> filterProducts());
+
 
 window.addEventListener("click", (e) => {
     if(btnSideMenu.contains(e.target)) {
@@ -187,4 +189,17 @@ const getAmountCart = (products) => {
     });
 
     return amount
+}
+
+const getIdCategoryStorage = () => {
+    let idCatLocal = localStorage.getItem("categoria");
+    const list_filterStorage = document.querySelectorAll('.filter__check')
+    for (let i = 0; i < list_filterStorage.length; i++) {
+        const element = list_filterStorage[i];
+        if ( idCatLocal == i) {
+            element.checked = true;
+        }
+        btnFilter.click();
+    }
+    
 }
