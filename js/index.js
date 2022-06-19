@@ -1,11 +1,16 @@
+let productosOferta = [];
 let botonSideMenu = document.getElementById("boton-side-menu");
 let botonCart = document.querySelector('.cart');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 const cartPrice = document.querySelector('.carrito-price');
-let hola = document.querySelector(".contenedor-icono-carrito")
+let productOferta1 = document.getElementById("card-oferta-1"); 
+let productOferta2 = document.getElementById("card-oferta-2"); 
+let productOferta3 = document.getElementById("card-oferta-3"); 
+let productOferta4 = document.getElementById("card-oferta-4"); 
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInit());
+document.addEventListener('DOMContentLoaded',e => fetchDataIndex());
 
 window.addEventListener("click", (e) => {
     if(botonSideMenu.contains(e.target)) {
@@ -49,4 +54,42 @@ const getAmountCart = (products) => {
     });
 
     return amount
+}
+
+const fetchDataIndex = async() => {
+    try {
+        const dataCart = JSON.parse(localStorage.getItem('products-cart'));
+        
+
+        const response  = await fetch('../data/producto.json');
+        const data = await response.json();
+        productosOferta = data;
+
+
+        productOferta1.addEventListener("click", () => {
+            let productID = productOferta1.dataset.id;
+            localStorage.setItem("content", productID)
+            window.location.href = "../views/product.html"
+        })
+        productOferta2.addEventListener("click", () => {
+            let productID = productOferta2.dataset.id;
+            localStorage.setItem("content", productID)
+            window.location.href = "../views/product.html"
+        })
+        productOferta3.addEventListener("click", () => {
+            let productID = productOferta3.dataset.id;
+            localStorage.setItem("content", productID)
+            window.location.href = "../views/product.html"
+        })
+        productOferta4.addEventListener("click", () => {
+            let productID = productOferta4.dataset.id;
+            localStorage.setItem("content", productID)
+            window.location.href = "../views/product.html"
+        })
+       
+        
+
+    } catch (error) {
+        console.error(error);
+    }
 }

@@ -274,5 +274,18 @@
             "Repisa_1.jpeg",
             "Repisa_2.jpeg"
         ]
+    },
+    {
+        "id": 22,
+        "title": "Roller facial",
+        "price": 20,
+        "description": "El uso de este Roller en el rostro te permite aplicar tus cremas de tratamiento o bien masajear las zonas del cuerpo como el cuello y piernas para estimular la circulación de la sangre en esas zonas y dejar de sentir malestares por el cansancio cotidiano.",
+        "details":"Masajeador Roller Ice apto freezer<br/>Desmontable por lo que podrás ponerlo en el freezer y obtener resultados realmente muy buenos.",
+        "stock": 1,
+        "category":5,
+        "images": [
+            "Roller_facial_1.jpeg",
+            "Roller_facial_2.jpeg"
+        ]
     }
 ]
