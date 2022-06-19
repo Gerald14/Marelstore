@@ -83,8 +83,8 @@ const paintCartProducts = (products) => {
 const paintProduct = ({id,title,images,price,quantity}) => {
     templateProductCart.querySelector('img').setAttribute('src',`../assets/images/${images[0]}`);
     templateProductCart.querySelector('.product-cart-title').textContent = title;
-    templateProductCart.querySelector('.product-cart-price').textContent = price;
-    templateProductCart.querySelector('.product-cart-quantity').textContent = quantity;
+    templateProductCart.querySelector('.product-cart-price').textContent = 'precio: S/.'+price.toFixed(2);
+    templateProductCart.querySelector('.product-cart-quantity').textContent ='cantidad: '+ quantity;
     templateProductCart.querySelector('.btn-close').dataset.id = id;
 
     const clone = templateProductCart.cloneNode(true);
