@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Botella multifuncion 8 en 1 ",
+        "title": "Botella multifunción 8 en 1 ",
         "price": 25,
         "description": " ",
         "details":" ",
@@ -19,7 +19,7 @@
         "description": "Úsalo para días de  Café, Cremas y  Capuccino en tu hogar o oficina que no te ocupa espacio y hacer de un momento agradable al momento de beberlo.",
         "details": "Medidas: 20 cm de Largo<br/>Es portátil, no necesita corriente, es a pilas y puedes movilizarte con él a todos lados<br/>Pilas NO incluidas.",
         "stock": 4,
-        "category": 1,
+        "category": 2,
         "images": [
             "Batidora_mini_1.jpeg",
             "Batidora_mini_2.jpeg"
@@ -41,12 +41,12 @@
     },
     {
         "id": 4,
-        "title": "Cepillo de limpieza c/ mango retractil",
+        "title": "Cepillo de limpieza c/ mango retráctil",
         "price": 13,
         "description": " ",
         "details":" ",
         "stock": 4,
-        "category":1,
+        "category":2,
         "images": [
             "Cepillo_limp_1.jpeg",
             "Cepillo_limp_2.jpeg"
@@ -54,7 +54,7 @@
     },
     {
         "id": 5,
-        "title": "Humidificador conejito 🐰",
+        "title": "Humidificador conejito",
         "price": 35,
         "description": "Pequeño, fácil de utilizar y de trasladar a cualquier lugar, perfecto para oficina, dormitorio o sala con su funcionamiento silencioso, agregando agua y unas gotas de esencia y  hará que  disfrute de una atmósfera perfumada y relajante, purificando el aire y su piel.",
         "details": "Capacidad de 200ML<br/>Color Rosa y Blanco<br/>Carga USB ultrasónico<br/>Cuenta con una iluminación multicolor<br/>Apagado automático",
@@ -67,7 +67,7 @@
     },
     {
         "id": 6,
-        "title": "Cepillos de limpieza especial",
+        "title": "Cepillos portátil multifuncional",
         "price": 25,
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
         "details":"Color Disponible: Blanco",
@@ -98,7 +98,7 @@
         "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo, un arco iris de colores que a tu hijo le encantará abrazarse con su peluche amigo día y noche. Ideal para el hogar, viajes, fiestas de pijamas, juegos y mucho más.",
         "details": "Presiona sobre el vientre y cambia la luz a seis colores diferentes <br/> Funciona con 3 pilas AAA (no incluidas)<br/>Material: 100% felpa de poliéster<br/>Medidas:24 x 14 cm<br/>No es lavable en máquina<br/>Recomendaciones: Limpieza con un paño húmedo y secado al aire<br/>Modelos Disponibles: Azul y Marrón",
         "stock": 3,
-        "category":1,
+        "category":3,
         "images": [
             "Star_belly_1.jpg",
             "Star_belly_2.jpg"
@@ -111,7 +111,7 @@
         "description": "Happy Nappers es el amigo divertido y difuso que no es solo la almohada de juego perfecta, sino que se abre y se convierte en una cómoda sorpresa de saco de dormir. Fáciles de desenrollar, las Happy Nappers mantienen a su hijo caliente y cómodo cuando es hora de una siesta y son almohadas suaves y acogedoras perfectas para jugar o abrazarse.",
         "details":"Modelo Disponibles: Mariquita, Perrito Amarillo, Dragón</br>Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.<br/>Medidas: 50 cm de ancho x 1.29 cm de largo<br/>Para niños de hasta 03 añoss",
         "stock": 3,
-        "category":1,
+        "category":3,
         "images": [
             "Happy_napper_1.jpeg",
             "Happy_napper_2.jpg"
@@ -124,7 +124,7 @@
         "description": "Inspirada en la exitosa serie educativa de YouTube Kids y Netflix, CoComelon, este muñeco interactivo permite a los niños participar en sus propias aventuras de aprendizaje temprano. ¡A tu hijo le encantará abrazar a su amigo favorito CoComelon!",
         "details": "Muñeco de peluche musical con cuerpo suave y esponjoso. Con cabeza y manos de plástico para un mayor realismo.</br> Lleva su famoso pijamita para irse a dormir.</br>Aprieta la barriguita del juguete y reproduce la popular canción de CoComelon “YesYes Bedtime.</br>",
         "stock": 1,
-        "category":1,
+        "category":3,
         "images": [
             "Muñeca_1.jpeg",
             "Muñeca_2.jpg"
@@ -150,7 +150,7 @@
         "description": "El vaso antiderrame con asa es una alternativa ideal para niños que están dejando la mamadera y empezando a tomar líquidos con vaso, y lo mejor de todo es que ¡no se derrama!",
         "details":"Medidas: 11.7cm de alto x 9cm de ancho <br/>Modelo disponible: Unicornio</br>Material: Vidrio.",
         "stock": 1,
-        "category":1,
+        "category":3,
         "images": [
             "Vaso_anti_1.jpeg",
             "Vaso_anti_2.jpeg"
@@ -163,7 +163,7 @@
         "description": "Esta manta especial puede ser el mejor guardián para su hijo por la noche,  son ideales para el uso diario, como ver la TV, leer en el sofá,  en una silla o cama. También puede ser una decoración para el hogar, puedes llevarlo de viaje.",
         "details":"Material: felpa <br/> Medidas:1.60 x 65cm </br> Modelos Disponibles: Lunas con estrellas y Mariposas.",
         "stock": 3,
-        "category":1,
+        "category":3,
         "images": [
             "Manta_1.jpg",
             "Manta_2.jpg"
@@ -191,7 +191,7 @@
         "description": "Colorido y divertido Cuenta con 8 agujeros de los cuales te permitirán crear cientos de burbujas por minuto para que la diversión sea en grande, Su practico diseño te permitirá llevarla a cualquier lugar ya que es pequeña y ligera.",
         "details":"Está hecho de material ABS no tóxico, que es bastante seguro para niños y mascotas.<br/> Las bubble guns se pueden usar como un pequeño ventilador, quita la cabeza de la pistola, traerá un viento fresco y cómodo.</br>Uso a pilas. ( NO INCLUIDAS)</br>Colores Disponibles: Rosado y Negro.",
         "stock": 2,
-        "category":1,
+        "category":3,
         "images": [
             "Ametralladora_1.jfif",
             "Ametralladora.jpg"
@@ -199,12 +199,12 @@
     },
     {
         "id": 16,
-        "title": "Mortero de piedra marmol",
+        "title": "Mortero de piedra mármol",
         "price": 40,
         "description": "Este mortero está hecho de un único y sólido bloque de piedra, confiriéndole una construcción fuerte. Por su diseño son también un hermoso arreglo en el comedor, cocina o en cualquier vitrina.",
         "details":"Ideal para moler desde especias hasta hierbas, ajos, sal, etc.<br/> Material: Piedra Mármol",
         "stock": 2,
-        "category":1,
+        "category":2,
         "images": [
             "Mortero_1.jpg",
             "Mortero_2.webp"
@@ -217,7 +217,7 @@
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
         "details":"Material: felpa <br/>Medidas:1.60 x 65cm",
         "stock": 1,
-        "category":1,
+        "category":5,
         "images": [
             "Hula_hula_1.jpeg",
             "Hula_hula_2.jpeg"
@@ -238,7 +238,7 @@
     },
     {
         "id": 19,
-        "title": "Lampara para insectos UV",
+        "title": "Lámpara para insectos UV",
         "price": 38,
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
         "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
@@ -256,7 +256,7 @@
         "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
         "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
         "stock": 1,
-        "category":1,
+        "category":3,
         "images": [
             "Mirabel_1.jpg",
             "Mirabel_2.jpg"
