@@ -9,6 +9,7 @@ const cartPrice = document.querySelector('.carrito-price');
 //Botones
 const btnShopingCart = document.querySelector('.cart');
 let btnSideMenu = document.getElementById("boton-side-menu");
+const btnFilter = document.querySelector('.btn-filter');
 
 //Templates
 const toastLive = document.getElementById('liveToast')
@@ -19,6 +20,7 @@ const fragment = document.createDocumentFragment();
 document.addEventListener('DOMContentLoaded',e => fetchData());
 btnShopingCart.addEventListener('click',() => redeirectToCart());
 listProducts.addEventListener('click',e => eventBtnProduct(e));
+btnFilter.addEventListener('click', ()=> filterProducts())
 
 window.addEventListener("click", (e) => {
     if(btnSideMenu.contains(e.target)) {
@@ -32,6 +34,52 @@ window.addEventListener("click", (e) => {
         }
     }
 })
+
+const  filterProducts = () => {
+    const list_filter = document.querySelectorAll('.filter__check')
+   console.log(list_filter)
+    list_filter.forEach((filter,index)=>{
+        console.log('index',index)
+        switch (index) {
+            case 0:
+                if(filter.checked){
+                    
+                    cleanDiv('.products-list');
+                    paintProducts(products);
+                }
+                break;
+            case 1:
+                if(filter.checked){
+                    const newList = getListByCategoryId(index)
+                    cleanDiv('.products-list');
+                    paintProducts(newList);
+                }
+                break;
+            case 2:
+                if(filter.checked){
+                    const newList = getListByCategoryId(index)
+                    cleanDiv('.products-list');
+                    paintProducts(newList);
+                }
+                 break;
+                    
+            default:
+                break;
+        }
+        
+    })
+}
+
+const getListByCategoryId = (index) => {
+    return products.filter(product => product.category==index)
+}
+
+const cleanDivByClass = (classDiv) =>{
+    const list = document.querySelector(classDiv)
+    while (list.firstChild) {
+        list.removeChild(list.firstChild);
+    }
+}
 
 const fetchData = async() => {
     try {
