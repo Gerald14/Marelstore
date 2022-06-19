@@ -103,6 +103,17 @@ const paintAmountCart = (amount) => {
     cartPrice.textContent = 'S/.'+ amount.toFixed(2);
 }
 
+const updateCart = () => {
+    const dataCart = JSON.parse(localStorage.getItem('products-cart'));
+        if ( dataCart != null) {
+            if(dataCart.length > 0){
+                console.log('pintar')
+                const amount = getAmountCart(dataCart);
+                paintAmountCart(amount)
+            }
+        }
+}
+
 const paintMessageEmpty = () => {
     const div = document.createElement('div');
     div.className = 'cart-empty';
@@ -156,7 +167,7 @@ const deleteProduct = (e) => {
               cleanDivByClass('.cart-products');
               paintCartProducts(newListCart);
               localStorage.setItem('products-cart',JSON.stringify(newListCart));
-    
+              updateCart();
               swalWithBootstrapButtons.fire(
                 'Eliminado!',
                 'Su producto fue eliminado del carrito.',

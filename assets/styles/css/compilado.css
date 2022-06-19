@@ -330,7 +330,8 @@ html, body {
   align-items: center;
   font-size: 0.9rem;
   color: white;
-  font-weight: 600; }
+  font-weight: 600;
+  text-transform: uppercase; }
 
 .detalle-precio-producto {
   font-size: 1.2rem;
@@ -589,7 +590,8 @@ html, body {
     align-items: center;
     font-size: 0.9rem;
     color: white;
-    font-weight: 600; }
+    font-weight: 600;
+    text-transform: uppercase; }
   .detalle-precio-producto {
     font-size: 1.2rem;
     color: #F4B56E;

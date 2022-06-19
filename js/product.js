@@ -58,7 +58,7 @@ botonMenos.onclick = () => {
 function llenarElementos ({id, title, price, description, details, images}) {
     nombreProducto.innerHTML = title;
     nombreProducto.dataset.id = id
-    precioProducto.innerHTML = `S/${price}`;
+    precioProducto.innerHTML = 'S/.'+price.toFixed(2);
     contenedorDetalleDescripcion.innerHTML = description;
     imagenCentral.src = `../assets/images/${images[0]}`;
     images[1] ? imagenMuestra1.src = `../assets/images/${images[1]}` : imagenMuestra1.style.display = "none";
@@ -148,6 +148,7 @@ const eventBtnProduct = () => {
     
     if (idProduct) {
         addToCart(product);
+        updateCart()
     }
 }
 
@@ -167,6 +168,17 @@ const addToCart = (product) => {
     }
     localStorage.setItem('products-cart',JSON.stringify(listCart));
     
+}
+
+const updateCart = () => {
+    const dataCart = JSON.parse(localStorage.getItem('products-cart'));
+        if ( dataCart != null) {
+            if(dataCart.length > 0){
+                console.log('pintar')
+                const amount = getAmountCart(dataCart);
+                paintAmountCart(amount)
+            }
+        }
 }
 
 const verifyProductInCart = (id, listCart) => {
