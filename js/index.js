@@ -11,7 +11,7 @@ let opcionesCatalog = document.querySelectorAll(".categoria-catalogo");
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInit());
-document.addEventListener('DOMContentLoaded',e => fetchDataIndex());
+document.addEventListener('DOMContentLoaded',e => fetchDataCatalog());
 console.log(opcionesCatalog)
 opcionesCatalog.forEach((item) => {
     item.addEventListener("click", (e) => {
@@ -65,7 +65,6 @@ const getAmountCart = (products) => {
 
 const fetchDataIndex = async() => {
     try {
-        const dataCart = JSON.parse(localStorage.getItem('products-cart'));
         
 
         const response  = await fetch('../data/producto.json');

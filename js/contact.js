@@ -1,6 +1,9 @@
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 const cartPrice = document.querySelector('.carrito-price');
 
+//Lista
+let opcionesCatalog = document.querySelectorAll(".categoria-catalogo");
+
 //Botones
 const btnShopingCart = document.querySelector('.cart');
 
@@ -8,6 +11,11 @@ const btnShopingCart = document.querySelector('.cart');
 document.addEventListener('DOMContentLoaded',e => paintInit());
 btnShopingCart.addEventListener('click',() => redeirectToCart());
 let btnSideMenu = document.getElementById("boton-side-menu");
+opcionesCatalog.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        localStorage.setItem("categoria", e.target.dataset.id)
+    })
+})
 
 window.addEventListener("click", (e) => {
     if(btnSideMenu.contains(e.target)) {

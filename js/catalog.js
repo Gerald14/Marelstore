@@ -5,6 +5,7 @@ let products = [];
 const listProducts = document.querySelector('.products-list');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 const cartPrice = document.querySelector('.carrito-price');
+let opcionesCatalog = document.querySelectorAll(".categoria-catalogo");
 
 //Botones
 const btnShopingCart = document.querySelector('.cart');
@@ -18,7 +19,11 @@ const fragment = document.createDocumentFragment();
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => fetchData());
-document.addEventListener('DOMContentLoaded',e => getIdCategoryStorage());
+opcionesCatalog.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        localStorage.setItem("categoria", e.target.dataset.id)
+    })
+})
 btnShopingCart.addEventListener('click',() => redeirectToCart());
 listProducts.addEventListener('click',e => eventBtnProduct(e));
 btnFilter.addEventListener('click', ()=> filterProducts());
@@ -92,6 +97,18 @@ const fetchData = async() => {
         const data = await response.json();
         products = data;
         paintProducts(data);
+
+        let categoryId = localStorage.getItem("categoria") || "";
+        
+        if ( categoryId) {
+            const productosCategory = getListByCategoryId(parseInt(categoryId));
+            cleanDivByClass('.products-list');
+            paintProducts(productosCategory);
+            if(categoryId==0){
+                cleanDivByClass('.products-list');
+                paintProducts(products);
+            }
+        }
 
         let viewButtons = document.querySelectorAll(".btn-view")
        
@@ -201,17 +218,4 @@ const getAmountCart = (products) => {
     });
 
     return amount
-}
-
-const getIdCategoryStorage = () => {
-    let idCatLocal = localStorage.getItem("categoria");
-    const list_filterStorage = document.querySelectorAll('.filter__check')
-    for (let i = 0; i < list_filterStorage.length; i++) {
-        const element = list_filterStorage[i];
-        if ( idCatLocal == i) {
-            element.checked = true;
-        }
-        btnFilter.click();
-    }
-    
 }

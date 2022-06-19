@@ -3,6 +3,8 @@ const listProductsCart = document.querySelector('.cart-products');
 const summaryCart = document.querySelector('.cart-summary');
 let contenedorSideMenu = document.getElementById("contenedor-side-menu");
 const cartPrice = document.querySelector('.carrito-price');
+let opcionesCatalog = document.querySelectorAll(".categoria-catalogo");
+
 //Templates
 const templateProductCart = document.getElementById('template-product-cart').content;
 const templateSumaryCart = document.getElementById('template-summary-cart').content;
@@ -18,6 +20,11 @@ let botonEnviarWp = templateSumaryCart.querySelector(".btn-complete");
 document.addEventListener('DOMContentLoaded',e => paintInitCart());
 listProductsCart.addEventListener('click',e => deleteProduct(e))
 summaryCart.addEventListener('click',e => clearCart(e))
+opcionesCatalog.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        localStorage.setItem("categoria", e.target.dataset.id)
+    })
+})
 
 window.addEventListener("click", (e) => {
     if(btnSideMenu.contains(e.target)) {
