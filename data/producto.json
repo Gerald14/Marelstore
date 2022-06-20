@@ -3,9 +3,9 @@
         "id": 1,
         "title": "Botella multifunción 8 en 1 ",
         "price": 25,
-        "description": " ",
-        "details":" ",
-        "stock": 4,
+        "description": "Equipado con: Embudo, exprimidor, rayador, separador de yemas, abre botella, picador, taza medidora, de fácil limpiado",
+        "details":"Material plástico ABS  calidad alimentaria",
+        "stock": 1,
         "category": 1,
         "images": [
             "Botella_multi_1.jpeg",
@@ -16,9 +16,9 @@
         "id": 2,
         "title": "Mini batidora manual a pilas",
         "price": 12.50,
-        "description": "Úsalo para días de  Café, Cremas y  Capuccino en tu hogar o oficina que no te ocupa espacio y hacer de un momento agradable al momento de beberlo.",
+        "description": "Úsalo para días de Café, Cremas y  Capuccino en tu hogar o oficina que no te ocupa espacio y hacer de un momento agradable al momento de beberlo.",
         "details": "Medidas: 20 cm de Largo<br/>Es portátil, no necesita corriente, es a pilas y puedes movilizarte con él a todos lados<br/>Pilas NO incluidas.",
-        "stock": 4,
+        "stock": 2,
         "category": 2,
         "images": [
             "Batidora_mini_1.jpeg",
@@ -43,9 +43,9 @@
         "id": 4,
         "title": "Cepillo de limpieza c/ mango retráctil",
         "price": 13,
-        "description": " ",
-        "details":" ",
-        "stock": 4,
+        "description": "El limpiador de cepillo de botella de agua es completamente reutilizable. La esponja especialmente diseñada y el mango largo duradero pueden limpiar fácilmente toda la superficie interna de la botella.",
+        "details":"Diseño con agujero, fácil de colgar. <br/>Mango con regulador.<br/>Colores: Blanco y celeste.",
+        "stock": 3,
         "category":2,
         "images": [
             "Cepillo_limp_1.jpeg",
@@ -58,7 +58,7 @@
         "price": 35,
         "description": "Pequeño, fácil de utilizar y de trasladar a cualquier lugar, perfecto para oficina, dormitorio o sala con su funcionamiento silencioso, agregando agua y unas gotas de esencia y  hará que  disfrute de una atmósfera perfumada y relajante, purificando el aire y su piel.",
         "details": "Capacidad de 200ML<br/>Color Rosa y Blanco<br/>Carga USB ultrasónico<br/>Cuenta con una iluminación multicolor<br/>Apagado automático",
-        "stock": 4,
+        "stock": 3,
         "category":1,
         "images": [
             "Difusor_conejo_1.jpg",
@@ -68,10 +68,10 @@
     {
         "id": 6,
         "title": "Cepillo portátil multifuncional",
-        "price": 25,
-        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas ,frascos, licuadoras y mas sin complicaciones ",
+        "price": 12,
+        "description": "Cepillos especiales para limpiar los orificios pequeños de botellas, frascos, licuadoras y mas sin complicaciones con su ligera forma.",
         "details":"Color Disponible: Blanco",
-        "stock": 4,
+        "stock": 1,
         "category":1,
         "images": [
             "Cepillo_espec_1.jpeg",
@@ -94,7 +94,7 @@
     {
         "id": 8,
         "title": "Star Bellys",
-        "price": 40,
+        "price": 50,
         "description": "Star Belly es un juguete suave y cómodo que crea estrellas brillantes y formas divertidas que se deslizan sobre las paredes y el techo, un arco iris de colores que a tu hijo le encantará abrazarse con su peluche amigo día y noche. Ideal para el hogar, viajes, fiestas de pijamas, juegos y mucho más.",
         "details": "Presiona sobre el vientre y cambia la luz a seis colores diferentes <br/> Funciona con 3 pilas AAA (no incluidas)<br/>Material: 100% felpa de poliéster<br/>Medidas:24 x 14 cm<br/>No es lavable en máquina<br/>Recomendaciones: Limpieza con un paño húmedo y secado al aire<br/>Modelos Disponibles: Azul y Marrón",
         "stock": 3,
@@ -109,7 +109,7 @@
         "title": "Happy Nappers",
         "price": 50,
         "description": "Happy Nappers es el amigo divertido y difuso que no es solo la almohada de juego perfecta, sino que se abre y se convierte en una cómoda sorpresa de saco de dormir. Fáciles de desenrollar, las Happy Nappers mantienen a su hijo caliente y cómodo cuando es hora de una siesta y son almohadas suaves y acogedoras perfectas para jugar o abrazarse.",
-        "details":"Modelo Disponibles: Mariquita, Perrito Amarillo, Dragón</br>Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.<br/>Medidas: 50 cm de ancho x 1.29 cm de largo<br/>Para niños de hasta 03 añoss",
+        "details":"Modelo Disponibles: Mariquita, Perrito Amarillo, Dragón</br>Se transforman de mascotas de peluche, en acogedores cojines, y en divertidas bolsas de dormir con almohada incorporada.<br/>Medidas: 50 cm de ancho x 1.29 cm de largo - Talla S<br/>Para niños de hasta 03 añoss",
         "stock": 3,
         "category":3,
         "images": [
@@ -122,7 +122,7 @@
         "title": "Muñeco Cocomelon",
         "price": 30,
         "description": "Inspirada en la exitosa serie educativa de YouTube Kids y Netflix, CoComelon, este muñeco interactivo permite a los niños participar en sus propias aventuras de aprendizaje temprano. ¡A tu hijo le encantará abrazar a su amigo favorito CoComelon!",
-        "details": "Muñeco de peluche musical con cuerpo suave y esponjoso. Con cabeza y manos de plástico para un mayor realismo.</br> Lleva su famoso pijamita para irse a dormir.</br>Aprieta la barriguita del juguete y reproduce la popular canción de CoComelon “YesYes Bedtime.</br>",
+        "details": "Muñeco de peluche musical con cuerpo suave y esponjoso. Con cabeza y manos de plástico para un mayor realismo.</br> Lleva su famoso pijamita para irse a dormir.</br>Aprieta la barriguita del juguete y reproduce la popular canción de CoComelon “YesYes Bedtime.</br>Fomenta la imaginación y desarrollo de las habilidades sociales como la responsabilidad y la empatía. Funciona con 3 Pilas LR03 (Incluidas).",
         "stock": 1,
         "category":3,
         "images": [
@@ -203,7 +203,7 @@
         "price": 40,
         "description": "Este mortero está hecho de un único y sólido bloque de piedra, confiriéndole una construcción fuerte. Por su diseño son también un hermoso arreglo en el comedor, cocina o en cualquier vitrina.",
         "details":"Ideal para moler desde especias hasta hierbas, ajos, sal, etc.<br/> Material: Piedra Mármol",
-        "stock": 2,
+        "stock": 4,
         "category":2,
         "images": [
             "Mortero_1.jpg",
@@ -214,8 +214,8 @@
         "id": 17,
         "title": "Hula Hula Hoop inteligente",
         "price": 38,
-        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa <br/>Medidas:1.60 x 65cm",
+        "description": "Equipo deportivo familiar adecuado para todos los miembros de la familia, ideal para tus ejercicios con ritmo. Simple y seguro de usar, que permite ejercitar la cintura y el abdomen que suelen ser difíciles de ejercitar.",
+        "details":"Tiene el efecto de masajear, relajar.<br/>Contador con número",
         "stock": 1,
         "category":5,
         "images": [
@@ -226,9 +226,9 @@
     {
         "id": 18,
         "title": "Taza Kawai Gatito",
-        "price": 38,
-        "description": "¡Una taza para amantes de los gatunos!        ",
-        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
+        "price": 27,
+        "description": "¡Una taza para amantes de los gatunos! Nada mejor para comenzar el día que tomarse un café o un vaso de leche en esta taza con forma de gato y un estilo kawai inigualable.Es una taza que puede servir tanto para niños como para adultos que tienen un espíritu joven.",
+        "details":"Color disponible: Negro.<br/>Material: Cerámica",
         "stock": 1,
         "category":1,
         "images": [
@@ -239,9 +239,9 @@
     {
         "id": 19,
         "title": "Lámpara para insectos UV",
-        "price": 38,
-        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
+        "price": 28,
+        "description": "Es una lámpara dispositivo para llevar en viajes de negocios o familiares. Es de tamaño pequeño y puedes colocarlo fácilmente en una maleta. Este dispositivo es ligero y puede usarlo en interiores o exteriores. Todo lo que necesita es el enchufe para enchufar este dispositivo.",
+        "details":"Atrae los mosquitos y zancudos dejándolos atrapados.<br/>Entrada USB.<br/>Noches más tranquilas.<br/>Uso con Energía.",
         "stock": 1,
         "category":1,
         "images": [
@@ -255,7 +255,7 @@
         "price": 40,
         "description": "La extraordinaria Mirabel será la compañera perfecta para tu pequeña, adorable muñeca peluche, inspirada en Encanto",
         "details":"Peluche antialérgico.<br/> Medida: 37cm aprox de alto.",
-        "stock": 1,
+        "stock": 2,
         "category":3,
         "images": [
             "Mirabel_1.jpg",
@@ -265,9 +265,9 @@
     {
         "id": 21,
         "title": "Repisa decorativa",
-        "price": 38,
-        "description": "Equipo deportivo familiar adecuado para todo los miembros de la familia.",
-        "details":"Material: felpa <br/> Medidas:1.60 x 65cm",
+        "price": 25,
+        "description": "Organizar o decorar nuestro hogar muchas veces nos resulta algo complicado cuando no somos buenos en el tema, y cuando se trata de decorar con repisas… no sabemos cómo implementar el diseño, pues bien, ahora tenemos esta repisa para que puedas organizar tu hogar sin ser una experta. Dependiendo de tu gusto puedes empezar a decorar y darle el toque personal con estas ideas.",
+        "details":"Material: Plástico PP<br/>Puede ser utilizada en baños, sala, recámaras… o en el lugar que tu prefieras.<br/>Medidas: 33*13.5*14.5 cm. <br/>Incluye adhesivos.<br/>Color Disponible: Gris",
         "stock": 1,
         "category":1,
         "images": [
@@ -287,5 +287,43 @@
             "Roller_facial_1.jpeg",
             "Roller_facial_2.jpeg"
         ]
+    },
+    {
+        "id": 23,
+        "title": "ORGANIZADOR PORTA MAQUILLAJE ACRÍLICO 360°",
+        "price": 45,
+        "description": "Organizador de maquillaje giratorio de 360 grados: Organiza y almacena perfectamente tus cosméticos y accesorios. Fácil acceso a todos tus productos de maquillaje. Perfecto regalo  para tus amigos, familiares y cualquier amante del maquillaje.",
+        "details":"Fácil de armar y lavar.<br/>El material PS.<br/>Fácil de limpiar.",
+        "stock": 1,
+        "category":1,
+        "images": [
+            "Organizador_1.jpeg",
+            "Organizador_2.jpeg"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Trípode selfie + Aro de luz led",
+        "price": 40,
+        "description": "Trípode, ideal para hacer grabaciones y fotos semi-profesionales. Trípode con altura de 165 cm (Aproximadamente). Aro de Luz Led 26cm de diámetro, Luz Blanca, cálida y natural. Graduación de intensidad de la luz. Ideal para youtubers Juniors, Tutoriales, Amantes de la fotografía, etc.",
+        "details":"El color y el brillo son fáciles de configurar y no necesita instalar ningún filtro de colores adicionales.<br/>Sin control.<br/>Entrada USB",
+        "stock": 1,
+        "category":5,
+        "images": [
+            "Aro_selfie_1.jpeg"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "ALFOMBRAS  DE COCINA 2 PZAS",
+        "price": 37,
+        "description": "Set de alfombrillas para decorar para tu cocina, fácil limpieza, 2 piezas,  divertida e impermeable para la entrada de la puerta delantera.",
+        "details":"Juego de 2 piezas = 1 pieza de 50 x 80 cm + 1 pieza de 50 x 160 cm.<br/>Respaldo de goma de látex antideslizante, resistente a la decoloración y al desgaste.<br/>Absorbe el agua y se seca rápidamente, protege tu piso de la cocina de la humedad y las manchas.",
+        "stock": 2,
+        "category":2,
+        "images": [
+            "Alfombra_cocina.jpeg"
+        ]
     }
+
 ]

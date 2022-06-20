@@ -9,6 +9,8 @@ let productosArray = [];
 let imagenCentral = document.getElementById("imagen-producto-grande");
 let imagenMuestra1 = document.getElementById("imagen-muestra-1");
 let imagenMuestra2 = document.getElementById("imagen-muestra-2");
+let imagenMuestra3 = document.getElementById("imagen-muestra-3");
+let imagenMuestra4 = document.getElementById("imagen-muestra-4");
 let nombreProducto = document.getElementById("nombre-producto");
 let precioProducto = document.getElementById("precio-producto");
 let botonMas = document.getElementById("boton-mas");
@@ -63,6 +65,8 @@ function llenarElementos ({id, title, price, description, details, images}) {
     imagenCentral.src = `../assets/images/${images[0]}`;
     images[1] ? imagenMuestra1.src = `../assets/images/${images[1]}` : imagenMuestra1.style.display = "none";
     images[2] ? imagenMuestra2.src = `../assets/images/${images[2]}` : imagenMuestra2.style.display = "none";
+    images[3] ? imagenMuestra3.src = `../assets/images/${images[3]}` : imagenMuestra3.style.display = "none";
+    images[4] ? imagenMuestra4.src = `../assets/images/${images[4]}` : imagenMuestra4.style.display = "none";
 
     //Eventos para cambiar entre descripción y detalle
     pestañaDescripcion.onclick = () => {
@@ -83,6 +87,16 @@ function llenarElementos ({id, title, price, description, details, images}) {
         let cambioImg = imagenCentral.src
         imagenCentral.src = imagenMuestra2.src;
         imagenMuestra2.src = cambioImg; 
+    } : "";
+    imagenMuestra3 ? imagenMuestra3.onclick = () => {
+        let cambioImg = imagenCentral.src
+        imagenCentral.src = imagenMuestra3.src;
+        imagenMuestra3.src = cambioImg; 
+    } : "";
+    imagenMuestra4 ? imagenMuestra4.onclick = () => {
+        let cambioImg = imagenCentral.src
+        imagenCentral.src = imagenMuestra4.src;
+        imagenMuestra4.src = cambioImg; 
     } : "";
 }
 

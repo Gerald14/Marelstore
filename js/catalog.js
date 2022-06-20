@@ -58,6 +58,19 @@ const  filterProducts = () => {
             
         }
     })
+    let viewButtons = document.querySelectorAll(".btn-view")
+       
+        viewButtons.forEach((el) => {
+            el.addEventListener("click", (o) => {
+                // localStorage.remove("content")
+                let getProduct = (products.filter((elem) => elem.id == o.target.dataset.id));
+                let productID = getProduct[0].id;
+                localStorage.setItem("content", productID)
+                
+                window.location.href = "../views/product.html"
+                
+            })
+        })
 }
 
 const getListByCategoryId = (index) => {
@@ -108,6 +121,7 @@ const fetchData = async() => {
                 cleanDivByClass('.products-list');
                 paintProducts(products);
             }
+            localStorage.setItem("categoria", "")
         }
 
         let viewButtons = document.querySelectorAll(".btn-view")

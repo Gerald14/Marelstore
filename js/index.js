@@ -11,7 +11,7 @@ let opcionesCatalog = document.querySelectorAll(".categoria-catalogo");
 
 //Eventos
 document.addEventListener('DOMContentLoaded',e => paintInit());
-document.addEventListener('DOMContentLoaded',e => fetchDataCatalog());
+document.addEventListener('DOMContentLoaded',e => fetchDataIndex());
 console.log(opcionesCatalog)
 opcionesCatalog.forEach((item) => {
     item.addEventListener("click", (e) => {
