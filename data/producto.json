@@ -6,7 +6,7 @@
         "description": "Equipado con: Embudo, exprimidor, rayador, separador de yemas, abre botella, picador, taza medidora, de fácil limpiado",
         "details":"Material plástico ABS  calidad alimentaria",
         "stock": 1,
-        "category": 1,
+        "category": 2,
         "images": [
             "Botella_multi_1.jpeg",
             "Botella_multi_2.jpeg"
@@ -32,7 +32,7 @@
         "description": "Cepillo de silicona multifuncional para  limpieza con mango largo, rotativo, para  limpiador de biberones de leche, tomatodos, jarras y más.",
         "details":"Moderno y práctico.</br> Fácil uso.</br> Material: Silicona</br>Colores: Celeste, gris",
         "stock": 4,
-        "category": 1,
+        "category": 2,
         "images": [
             "Escobilla_2.jpeg",
             "Escobilla_1.jpeg",
@@ -72,7 +72,7 @@
         "description": "Cepillos especiales para limpiar los orificios pequeños de botellas, frascos, licuadoras y mas sin complicaciones con su ligera forma.",
         "details":"Color Disponible: Blanco",
         "stock": 1,
-        "category":1,
+        "category":2,
         "images": [
             "Cepillo_espec_1.jpeg",
             "Cepillo_espec_2.jpeg"
