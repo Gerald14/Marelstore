@@ -237,17 +237,19 @@
 
     .contenedor-parrafo-1 {
         width: 45%;
-        height: 85%;
+        height: 89%;
         background-color: #FBDBC3;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0.5rem;
 
         p {
-            font-size: 0.85rem;
+            font-size: 0.83rem;
             font-style: italic;
             width: 60%;
+            text-align: center;
         }
 
         border-top-right-radius: 55%;
@@ -262,25 +264,26 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        height: 48%;
+        height: 49%;
         width: 100%;
 
     }
 
     .contenedor-parrafo-2 {
         width: 45%;
-        height: 94%;
+        height: 99%;
         background-color: #B1C5C5;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0.8rem;
 
         p {
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             font-style: italic;
-            width: 70%;
-            text-align: right;
+            width: 65%;
+            text-align: center;
         }
 
 

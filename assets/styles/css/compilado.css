@@ -1658,44 +1658,47 @@ footer {
     width: 100%; }
   .contenedor-parrafo-1 {
     width: 45%;
-    height: 85%;
+    height: 89%;
     background-color: #FBDBC3;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0.5rem;
     border-top-right-radius: 55%;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 40%;
     border-bottom-left-radius: 55%; }
     .contenedor-parrafo-1 p {
-      font-size: 0.85rem;
+      font-size: 0.83rem;
       font-style: italic;
-      width: 60%; }
+      width: 60%;
+      text-align: center; }
   .nosotros-segundo-parrafo {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    height: 48%;
+    height: 49%;
     width: 100%; }
   .contenedor-parrafo-2 {
     width: 45%;
-    height: 94%;
+    height: 99%;
     background-color: #B1C5C5;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0.8rem;
     border-top-left-radius: 55%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 55%;
     border-bottom-left-radius: 40%; }
     .contenedor-parrafo-2 p {
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-style: italic;
-      width: 70%;
-      text-align: right; }
+      width: 65%;
+      text-align: center; }
   .nosotros-img {
     width: 50%;
     height: 100%;

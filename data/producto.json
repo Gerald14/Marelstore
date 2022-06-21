@@ -295,7 +295,7 @@
         "description": "Organizador de maquillaje giratorio de 360 grados: Organiza y almacena perfectamente tus cosméticos y accesorios. Fácil acceso a todos tus productos de maquillaje. Perfecto regalo  para tus amigos, familiares y cualquier amante del maquillaje.",
         "details":"Fácil de armar y lavar.<br/>El material PS.<br/>Fácil de limpiar.",
         "stock": 1,
-        "category":1,
+        "category":5,
         "images": [
             "Organizador_1.jpeg",
             "Organizador_2.jpeg"
@@ -308,7 +308,7 @@
         "description": "Trípode, ideal para hacer grabaciones y fotos semi-profesionales. Trípode con altura de 165 cm (Aproximadamente). Aro de Luz Led 26cm de diámetro, Luz Blanca, cálida y natural. Graduación de intensidad de la luz. Ideal para youtubers Juniors, Tutoriales, Amantes de la fotografía, etc.",
         "details":"El color y el brillo son fáciles de configurar y no necesita instalar ningún filtro de colores adicionales.<br/>Sin control.<br/>Entrada USB",
         "stock": 1,
-        "category":5,
+        "category":1,
         "images": [
             "Aro_selfie_1.jpeg"
         ]
