@@ -1511,13 +1511,14 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 0.5rem; }
+  align-items: center; }
   .nosotros-primera-burbuja p {
     width: 80%;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
-    z-index: 2; }
+    z-index: 2;
+    font-size: 0.85rem;
+    color: black; }
   .nosotros-primera-burbuja h1 {
     z-index: 2; }
 
@@ -1538,7 +1539,8 @@ footer {
     font-weight: 400;
     font-style: italic;
     z-index: 2;
-    text-align: right; }
+    text-align: right;
+    font-size: 0.85rem; }
 
 .background-n-1 {
   width: 8rem;
@@ -1563,7 +1565,7 @@ footer {
 .background-n-3 {
   width: 8rem;
   position: absolute;
-  left: 240px;
+  left: 230px;
   bottom: 190px;
   z-index: 1; }
   .background-n-3 img {
