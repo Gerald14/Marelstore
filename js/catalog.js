@@ -158,7 +158,7 @@ const paintProduct = ({id,images,title,price}) => {
 
     templateProduct.querySelector('img').setAttribute('src',`../assets/images/${images[0]}`);
     templateProduct.querySelector('.product-title').textContent = title;
-    templateProduct.querySelector('.product-price').textContent = 'S/.'+price;
+    templateProduct.querySelector('.product-price').textContent = 'S/.'+price.toFixed(2);
     templateProduct.querySelector('.btn-view').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill').dataset.id = id;
     templateProduct.querySelector('.bi-basket-fill path').dataset.id = id;
